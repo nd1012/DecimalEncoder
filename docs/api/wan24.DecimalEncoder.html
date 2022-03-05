@@ -1,0 +1,3166 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DecimalEncoder
+   | DecimalEncoder </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DecimalEncoder
+   | DecimalEncoder ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="wan24.DecimalEncoder">
+  
+  
+  <h1 id="wan24_DecimalEncoder" data-uid="wan24.DecimalEncoder" class="text-break">Class DecimalEncoder
+  </h1>
+  <div class="markdown level0 summary"><p>Decimal encoder</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DecimalEncoder</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="wan24.html">wan24</a></h6>
+  <h6><strong>Assembly</strong>: decenc.dll</h6>
+  <h5 id="wan24_DecimalEncoder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class DecimalEncoder</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="wan24_DecimalEncoder_BIG_INT_LENGTH" data-uid="wan24.DecimalEncoder.BIG_INT_LENGTH">BIG_INT_LENGTH</h4>
+  <div class="markdown level1 summary"><p>Default big integer length in bytes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BIG_INT_LENGTH = 64</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="wan24_DecimalEncoder_EXTENDED_MAP" data-uid="wan24.DecimalEncoder.EXTENDED_MAP">EXTENDED_MAP</h4>
+  <div class="markdown level1 summary"><p>Extended encoding map (decimals 0-9, letters a-z and A-Z, more special characters and umlauts)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string EXTENDED_MAP = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@\&quot;'\\|^&#176;&#180;`~&#228;&#246;&#252;&#196;&#214;&#220;&#223;&#226;&#234;&#238;&#244;&#251;&#194;&#202;&#206;&#212;&#219;&#225;&#233;&#237;&#243;&#250;&#193;&#201;&#205;&#211;&#218;&#224;&#232;&#236;&#242;&#249;&#192;&#200;&#204;&#210;&#217;&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="wan24_DecimalEncoder_MAP" data-uid="wan24.DecimalEncoder.MAP">MAP</h4>
+  <div class="markdown level1 summary"><p>Encoding map (decimals 0-9, letters a-z and A-Z and basic special characters)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string MAP = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="wan24_DecimalEncoder_SAFE_EXTENDED_MAP" data-uid="wan24.DecimalEncoder.SAFE_EXTENDED_MAP">SAFE_EXTENDED_MAP</h4>
+  <div class="markdown level1 summary"><p>Safe extended encoding map (decimals 2-9, letters a-z (without b, c, d, i, j, l, o, p, u, v) and A-Z (without C, I, O, Q, U, V) and some basic special characters)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string SAFE_EXTENDED_MAP = &quot;23456789aefghkmnrstwxyzABDEFGHJKLMNPRSTWXYZ%=?+#-&lt;&gt;@&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="wan24_DecimalEncoder_SAFE_MAP" data-uid="wan24.DecimalEncoder.SAFE_MAP">SAFE_MAP</h4>
+  <div class="markdown level1 summary"><p>Safe encoding map (decimals 2-9 and letters a-z (without b, c, d, i, j, l, o, p, u, v) and A-Z (without C, I, O, Q, U, V))</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string SAFE_MAP = &quot;23456789aefghkmnrstwxyzABDEFGHJKLMNPRSTWXYZ&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="wan24_DecimalEncoder_SIMPLE_MAP" data-uid="wan24.DecimalEncoder.SIMPLE_MAP">SIMPLE_MAP</h4>
+  <div class="markdown level1 summary"><p>Simple encoding map (decimals 0-9 and letters a-z and A-Z)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string SIMPLE_MAP = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomBigInteger_" data-uid="wan24.DecimalEncoder.CreateRandomBigInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomBigInteger_System_Boolean_System_Int32_" data-uid="wan24.DecimalEncoder.CreateRandomBigInteger(System.Boolean,System.Int32)">CreateRandomBigInteger(Boolean, Int32)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (BigInteger, string) CreateRandomBigInteger(bool simple, int len = 64)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">len</span></td>
+        <td><p>Length in bytes</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Numerics.BigInteger</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomBigInteger_" data-uid="wan24.DecimalEncoder.CreateRandomBigInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomBigInteger_System_String_System_Int32_" data-uid="wan24.DecimalEncoder.CreateRandomBigInteger(System.String,System.Int32)">CreateRandomBigInteger(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (BigInteger, string) CreateRandomBigInteger(string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;, int len = 64)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">len</span></td>
+        <td><p>Length in bytes</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Numerics.BigInteger</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomBigInteger_" data-uid="wan24.DecimalEncoder.CreateRandomBigInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomBigInteger_wan24_DecimalEncodingMap_System_Int32_" data-uid="wan24.DecimalEncoder.CreateRandomBigInteger(wan24.DecimalEncodingMap,System.Int32)">CreateRandomBigInteger(DecimalEncodingMap, Int32)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (BigInteger, string) CreateRandomBigInteger(DecimalEncodingMap map, int len = 64)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">len</span></td>
+        <td><p>Length in bytes</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Numerics.BigInteger</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomDecimal_" data-uid="wan24.DecimalEncoder.CreateRandomDecimal*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomDecimal_System_Boolean_" data-uid="wan24.DecimalEncoder.CreateRandomDecimal(System.Boolean)">CreateRandomDecimal(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer decimal and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (decimal, string) CreateRandomDecimal(bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Decimal</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random decimal and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomDecimal_" data-uid="wan24.DecimalEncoder.CreateRandomDecimal*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomDecimal_System_String_" data-uid="wan24.DecimalEncoder.CreateRandomDecimal(System.String)">CreateRandomDecimal(String)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer decimal and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (decimal, string) CreateRandomDecimal(string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Decimal</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random decimal and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomDecimal_" data-uid="wan24.DecimalEncoder.CreateRandomDecimal*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomDecimal_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.CreateRandomDecimal(wan24.DecimalEncodingMap)">CreateRandomDecimal(DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer decimal and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (decimal, string) CreateRandomDecimal(DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Decimal</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random decimal and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomInteger_" data-uid="wan24.DecimalEncoder.CreateRandomInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomInteger_System_Boolean_" data-uid="wan24.DecimalEncoder.CreateRandomInteger(System.Boolean)">CreateRandomInteger(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (int, string) CreateRandomInteger(bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomInteger_" data-uid="wan24.DecimalEncoder.CreateRandomInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomInteger_System_String_" data-uid="wan24.DecimalEncoder.CreateRandomInteger(System.String)">CreateRandomInteger(String)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (int, string) CreateRandomInteger(string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomInteger_" data-uid="wan24.DecimalEncoder.CreateRandomInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomInteger_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.CreateRandomInteger(wan24.DecimalEncodingMap)">CreateRandomInteger(DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (int, string) CreateRandomInteger(DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomLong_" data-uid="wan24.DecimalEncoder.CreateRandomLong*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomLong_System_Boolean_" data-uid="wan24.DecimalEncoder.CreateRandomLong(System.Boolean)">CreateRandomLong(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (long, string) CreateRandomLong(bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Int64</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomLong_" data-uid="wan24.DecimalEncoder.CreateRandomLong*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomLong_System_String_" data-uid="wan24.DecimalEncoder.CreateRandomLong(System.String)">CreateRandomLong(String)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (long, string) CreateRandomLong(string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Int64</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomLong_" data-uid="wan24.DecimalEncoder.CreateRandomLong*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomLong_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.CreateRandomLong(wan24.DecimalEncodingMap)">CreateRandomLong(DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (long, string) CreateRandomLong(DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Int64</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomUInteger_" data-uid="wan24.DecimalEncoder.CreateRandomUInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomUInteger_System_Boolean_" data-uid="wan24.DecimalEncoder.CreateRandomUInteger(System.Boolean)">CreateRandomUInteger(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (uint, string) CreateRandomUInteger(bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.UInt32</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomUInteger_" data-uid="wan24.DecimalEncoder.CreateRandomUInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomUInteger_System_String_" data-uid="wan24.DecimalEncoder.CreateRandomUInteger(System.String)">CreateRandomUInteger(String)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (uint, string) CreateRandomUInteger(string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.UInt32</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomUInteger_" data-uid="wan24.DecimalEncoder.CreateRandomUInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomUInteger_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.CreateRandomUInteger(wan24.DecimalEncodingMap)">CreateRandomUInteger(DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (uint, string) CreateRandomUInteger(DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.UInt32</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomULong_" data-uid="wan24.DecimalEncoder.CreateRandomULong*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomULong_System_Boolean_" data-uid="wan24.DecimalEncoder.CreateRandomULong(System.Boolean)">CreateRandomULong(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (ulong, string) CreateRandomULong(bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomULong_" data-uid="wan24.DecimalEncoder.CreateRandomULong*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomULong_System_String_" data-uid="wan24.DecimalEncoder.CreateRandomULong(System.String)">CreateRandomULong(String)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (ulong, string) CreateRandomULong(string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_CreateRandomULong_" data-uid="wan24.DecimalEncoder.CreateRandomULong*"></a>
+  <h4 id="wan24_DecimalEncoder_CreateRandomULong_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.CreateRandomULong(wan24.DecimalEncodingMap)">CreateRandomULong(DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Create a random positive integer and encode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (ulong, string) CreateRandomULong(DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>Random integer and encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_Decimal_System_Boolean_" data-uid="wan24.DecimalEncoder.Encode(System.Decimal,System.Boolean)">Encode(Decimal, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer decimal</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this decimal dec, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Decimal</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_Decimal_System_String_" data-uid="wan24.DecimalEncoder.Encode(System.Decimal,System.String)">Encode(Decimal, String)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer decimal</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this decimal dec, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Decimal</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_Decimal_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.Encode(System.Decimal,wan24.DecimalEncodingMap)">Encode(Decimal, DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer decimal</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this decimal dec, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Decimal</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_Int32_System_Boolean_" data-uid="wan24.DecimalEncoder.Encode(System.Int32,System.Boolean)">Encode(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this int dec, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_Int32_System_String_" data-uid="wan24.DecimalEncoder.Encode(System.Int32,System.String)">Encode(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this int dec, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_Int32_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.Encode(System.Int32,wan24.DecimalEncodingMap)">Encode(Int32, DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this int dec, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_Int64_System_Boolean_" data-uid="wan24.DecimalEncoder.Encode(System.Int64,System.Boolean)">Encode(Int64, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this long dec, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_Int64_System_String_" data-uid="wan24.DecimalEncoder.Encode(System.Int64,System.String)">Encode(Int64, String)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this long dec, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_Int64_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.Encode(System.Int64,wan24.DecimalEncodingMap)">Encode(Int64, DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this long dec, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_Numerics_BigInteger_System_Boolean_" data-uid="wan24.DecimalEncoder.Encode(System.Numerics.BigInteger,System.Boolean)">Encode(BigInteger, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this BigInteger dec, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_Numerics_BigInteger_System_String_" data-uid="wan24.DecimalEncoder.Encode(System.Numerics.BigInteger,System.String)">Encode(BigInteger, String)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this BigInteger dec, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_Numerics_BigInteger_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.Encode(System.Numerics.BigInteger,wan24.DecimalEncodingMap)">Encode(BigInteger, DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this BigInteger dec, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_UInt32_System_Boolean_" data-uid="wan24.DecimalEncoder.Encode(System.UInt32,System.Boolean)">Encode(UInt32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this uint dec, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_UInt32_System_String_" data-uid="wan24.DecimalEncoder.Encode(System.UInt32,System.String)">Encode(UInt32, String)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this uint dec, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_UInt32_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.Encode(System.UInt32,wan24.DecimalEncodingMap)">Encode(UInt32, DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this uint dec, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_UInt64_System_Boolean_" data-uid="wan24.DecimalEncoder.Encode(System.UInt64,System.Boolean)">Encode(UInt64, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this ulong dec, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_UInt64_System_String_" data-uid="wan24.DecimalEncoder.Encode(System.UInt64,System.String)">Encode(UInt64, String)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this ulong dec, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_Encode_" data-uid="wan24.DecimalEncoder.Encode*"></a>
+  <h4 id="wan24_DecimalEncoder_Encode_System_UInt64_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.Encode(System.UInt64,wan24.DecimalEncodingMap)">Encode(UInt64, DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Encode(this ulong dec, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">dec</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_EncodeInteger_" data-uid="wan24.DecimalEncoder.EncodeInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_EncodeInteger_System_Byte___System_Boolean_" data-uid="wan24.DecimalEncoder.EncodeInteger(System.Byte[],System.Boolean)">EncodeInteger(Byte[], Boolean)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string EncodeInteger(this byte[] bytes, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>Unsigned integer bytes</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_EncodeInteger_" data-uid="wan24.DecimalEncoder.EncodeInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_EncodeInteger_System_Byte___System_String_" data-uid="wan24.DecimalEncoder.EncodeInteger(System.Byte[],System.String)">EncodeInteger(Byte[], String)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string EncodeInteger(this byte[] bytes, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>Unsigned integer bytes</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_EncodeInteger_" data-uid="wan24.DecimalEncoder.EncodeInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_EncodeInteger_System_Byte___wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.EncodeInteger(System.Byte[],wan24.DecimalEncodingMap)">EncodeInteger(Byte[], DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Encode a positive integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string EncodeInteger(this byte[] bytes, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>Unsigned integer bytes</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_GetEncodingMap_" data-uid="wan24.DecimalEncoder.GetEncodingMap*"></a>
+  <h4 id="wan24_DecimalEncoder_GetEncodingMap_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.GetEncodingMap(wan24.DecimalEncodingMap)">GetEncodingMap(DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Get the encoding map</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetEncodingMap(this DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedBigInteger_" data-uid="wan24.DecimalEncoder.ToDecodedBigInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedBigInteger_System_String_System_Boolean_" data-uid="wan24.DecimalEncoder.ToDecodedBigInteger(System.String,System.Boolean)">ToDecodedBigInteger(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger ToDecodedBigInteger(this string str, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedBigInteger_" data-uid="wan24.DecimalEncoder.ToDecodedBigInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedBigInteger_System_String_System_String_" data-uid="wan24.DecimalEncoder.ToDecodedBigInteger(System.String,System.String)">ToDecodedBigInteger(String, String)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger ToDecodedBigInteger(this string str, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedBigInteger_" data-uid="wan24.DecimalEncoder.ToDecodedBigInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedBigInteger_System_String_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.ToDecodedBigInteger(System.String,wan24.DecimalEncodingMap)">ToDecodedBigInteger(String, DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger ToDecodedBigInteger(this string str, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedDecimal_" data-uid="wan24.DecimalEncoder.ToDecodedDecimal*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedDecimal_System_String_System_Boolean_" data-uid="wan24.DecimalEncoder.ToDecodedDecimal(System.String,System.Boolean)">ToDecodedDecimal(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Decode decimal</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static decimal ToDecodedDecimal(this string str, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>Decimal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedDecimal_" data-uid="wan24.DecimalEncoder.ToDecodedDecimal*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedDecimal_System_String_System_String_" data-uid="wan24.DecimalEncoder.ToDecodedDecimal(System.String,System.String)">ToDecodedDecimal(String, String)</h4>
+  <div class="markdown level1 summary"><p>Decode decimal</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static decimal ToDecodedDecimal(this string str, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>Decimal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedDecimal_" data-uid="wan24.DecimalEncoder.ToDecodedDecimal*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedDecimal_System_String_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.ToDecodedDecimal(System.String,wan24.DecimalEncodingMap)">ToDecodedDecimal(String, DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Decode decimal</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static decimal ToDecodedDecimal(this string str, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>Decimal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedInteger_" data-uid="wan24.DecimalEncoder.ToDecodedInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedInteger_System_String_System_Boolean_" data-uid="wan24.DecimalEncoder.ToDecodedInteger(System.String,System.Boolean)">ToDecodedInteger(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ToDecodedInteger(this string str, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedInteger_" data-uid="wan24.DecimalEncoder.ToDecodedInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedInteger_System_String_System_String_" data-uid="wan24.DecimalEncoder.ToDecodedInteger(System.String,System.String)">ToDecodedInteger(String, String)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ToDecodedInteger(this string str, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedInteger_" data-uid="wan24.DecimalEncoder.ToDecodedInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedInteger_System_String_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.ToDecodedInteger(System.String,wan24.DecimalEncodingMap)">ToDecodedInteger(String, DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ToDecodedInteger(this string str, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedLong_" data-uid="wan24.DecimalEncoder.ToDecodedLong*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedLong_System_String_System_Boolean_" data-uid="wan24.DecimalEncoder.ToDecodedLong(System.String,System.Boolean)">ToDecodedLong(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long ToDecodedLong(this string str, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedLong_" data-uid="wan24.DecimalEncoder.ToDecodedLong*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedLong_System_String_System_String_" data-uid="wan24.DecimalEncoder.ToDecodedLong(System.String,System.String)">ToDecodedLong(String, String)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long ToDecodedLong(this string str, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedLong_" data-uid="wan24.DecimalEncoder.ToDecodedLong*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedLong_System_String_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.ToDecodedLong(System.String,wan24.DecimalEncodingMap)">ToDecodedLong(String, DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long ToDecodedLong(this string str, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedUInteger_" data-uid="wan24.DecimalEncoder.ToDecodedUInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedUInteger_System_String_System_Boolean_" data-uid="wan24.DecimalEncoder.ToDecodedUInteger(System.String,System.Boolean)">ToDecodedUInteger(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint ToDecodedUInteger(this string str, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedUInteger_" data-uid="wan24.DecimalEncoder.ToDecodedUInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedUInteger_System_String_System_String_" data-uid="wan24.DecimalEncoder.ToDecodedUInteger(System.String,System.String)">ToDecodedUInteger(String, String)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint ToDecodedUInteger(this string str, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedUInteger_" data-uid="wan24.DecimalEncoder.ToDecodedUInteger*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedUInteger_System_String_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.ToDecodedUInteger(System.String,wan24.DecimalEncodingMap)">ToDecodedUInteger(String, DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint ToDecodedUInteger(this string str, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedULong_" data-uid="wan24.DecimalEncoder.ToDecodedULong*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedULong_System_String_System_Boolean_" data-uid="wan24.DecimalEncoder.ToDecodedULong(System.String,System.Boolean)">ToDecodedULong(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong ToDecodedULong(this string str, bool simple)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">simple</span></td>
+        <td><p>Use the simple encoding map?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedULong_" data-uid="wan24.DecimalEncoder.ToDecodedULong*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedULong_System_String_System_String_" data-uid="wan24.DecimalEncoder.ToDecodedULong(System.String,System.String)">ToDecodedULong(String, String)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong ToDecodedULong(this string str, string map = &quot;0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#167;$%&amp;/()=?+*#-_.:,;{}[]&lt;&gt;@&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="wan24_DecimalEncoder_ToDecodedULong_" data-uid="wan24.DecimalEncoder.ToDecodedULong*"></a>
+  <h4 id="wan24_DecimalEncoder_ToDecodedULong_System_String_wan24_DecimalEncodingMap_" data-uid="wan24.DecimalEncoder.ToDecodedULong(System.String,wan24.DecimalEncodingMap)">ToDecodedULong(String, DecimalEncodingMap)</h4>
+  <div class="markdown level1 summary"><p>Decode integer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong ToDecodedULong(this string str, DecimalEncodingMap map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>Encoded</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="wan24.DecimalEncodingMap.html">DecimalEncodingMap</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>Encoding map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Integer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            (c) 2022 Andreas Zimmermann, wan24.de
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

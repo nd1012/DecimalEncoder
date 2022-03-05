@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>DecimalEncoder | DecimalEncoder </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="DecimalEncoder | DecimalEncoder ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="decimalencoder">DecimalEncoder</h1>
+
+<p>This library encodes numeric values (and byte arrays) using a string encoding map. Supported numeric types are:</p>
+<ul>
+<li><code>int</code> (32 bit signed positive integer)</li>
+<li><code>uint</code> (32 bit unsigned integer)</li>
+<li><code>long</code> (64 bit signed positive integer)</li>
+<li><code>ulong</code> (64 bit unsigned integer)</li>
+<li><code>decimal</code></li>
+<li><code>BigInteger</code> (any size unsigned integer)</li>
+</ul>
+<p>Byte arrays will be converted to a <code>BigInteger</code> for encoding.</p>
+<p>The encoding uses division for finding the encoding map index and compressing the result. The same will run backward for decoding using multiplication.</p>
+<h2 id="usage">Usage</h2>
+<pre><code class="lang-cs">// Encode a value
+string encoded = RandomNumberGenerator.GetInt32().Encode();
+Console.WriteLing(encoded);
+
+// Decode an encoded value
+int decoded = encoded.ToDecodedInteger();
+Console.WriteLing(decoded);
+
+// Create a random value
+(decoded, encoded) = DecimalEncoder.CreateRandomInteger();
+Console.WriteLing(encoded);
+Console.WriteLing(decoded);
+</code></pre>
+<h2 id="encoding">Encoding</h2>
+<p>Please note that encoding isn't encryption. This encoding is <strong>WAY</strong> more slower than base64 encoding, while the decoding is pretty fast, and the encoded value might be smaller than the original (compression instead of expansion).</p>
+<p>I noticed that the length of the encoding map does effect the encoding speed for the different numeric types. For example, the built in encoding maps are fast for all types except decimal, where the encoding takes about 5 times longer (see the test runtimes). The encoding performance depends on the availability of optimized low level number division algorithms and the used divisor (the encoding maps length will be used), and it may also be different with different CPUs or operating systems.</p>
+<h3 id="encoding-maps">Encoding maps</h3>
+<p>There are several encoding maps predefined (accessable using the <code>DecimalEncodingMap</code> enumeration):</p>
+<ul>
+<li><code>Normal</code>: decimals 0-9, letters a-z and A-Z and basic special characters</li>
+<li><code>Simple</code>: decimals 0-9 and letters a-z and A-Z</li>
+<li><code>Extended</code>: decimals 0-9, letters a-z and A-Z, more special characters and umlauts</li>
+<li><code>Safe</code>: decimals 2-9 and letters a-z (without b, c, d, i, j, l, o, p, u, v) and A-Z (without C, I, O, Q, U, V)</li>
+<li><code>SafeExtended</code>: decimals 2-9, letters a-z (without b, c, d, i, j, l, o, p, u, v) and A-Z (without C, I, O, Q, U, V) and some basic special characters</li>
+</ul>
+<p>You're free to use any individual encoding map. An encoding map contains the symbol list to use, where every symbol needs to be unique.</p>
+<p>The &quot;Safe&quot; encoding maps are designed to avoid symbols that may be confounded with other similar looking symbols.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            (c) 2022 Andreas Zimmermann, wan24.de
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

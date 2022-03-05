@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>decenc</AssemblyName>
+    <RootNamespace>wan24</RootNamespace>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageId>DecimalEncoder</PackageId>
+    <Authors>nd1012</Authors>
+    <Company>Andreas Zimmermann, wan24.de</Company>
+    <Product>DecimalEncoder</Product>
+    <Description>This library encodes numeric values (and byte arrays) using a string encoding map.</Description>
+    <Copyright>©2022 Andreas Zimmermann, wan24.de</Copyright>
+    <PackageProjectUrl>https://github.com/nd1012/DecimalEncoder</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nd1012/DecimalEncoder</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>.net,encoding,encoder</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <PackageLicenseFile>K:\Projekte\DecimalEncoder\src\DecimalEncoder\LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+</Project>

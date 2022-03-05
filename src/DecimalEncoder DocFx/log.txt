@@ -1,0 +1,1 @@
+{"message":"No metadata is generated for DecimalEncoder DocFx.","source":"MetadataCommand.ExtractMetadata","date_time":"2022-03-05T09:51:53.0917897Z","message_severity":"warning","correlation_id":"8A23285B-D586-4941-BC78-41CF9C9A0E67.1.1.11"}
