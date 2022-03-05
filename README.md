@@ -46,6 +46,6 @@ There are several encoding maps predefined (accessable using the `DecimalEncodin
 - `Safe`: decimals 2-9 and letters a-z (without b, c, d, i, j, l, o, p, u, v) and A-Z (without C, I, O, Q, U, V)
 - `SafeExtended`: decimals 2-9, letters a-z (without b, c, d, i, j, l, o, p, u, v) and A-Z (without C, I, O, Q, U, V) and some basic special characters
 
-You're free to use any individual encoding map. An encoding map contains the symbol list to use, where every symbol needs to be unique.
-
 The "Safe" encoding maps are designed to avoid symbols that may be confounded with other similar looking symbols.
+
+You're free to use any individual encoding map. An encoding map contains the symbol list to use, where every symbol needs to be unique.
