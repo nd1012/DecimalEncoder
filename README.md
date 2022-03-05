@@ -6,7 +6,7 @@ This library encodes numeric values (and byte arrays) using a string encoding ma
 - `uint` (32 bit unsigned integer)
 - `long` (64 bit signed positive integer)
 - `ulong` (64 bit unsigned integer)
-- `decimal`
+- `decimal` (unsigned positive unscaled)
 - `BigInteger` (any size unsigned integer)
 
 Byte arrays will be converted to a `BigInteger` for encoding.
