@@ -27,4 +27,4 @@ jobs:
     - name: Build tests
       run: dotnet build "./src/DecimalEncoder Tests/DecimalEncoder Tests.csproj" --no-restore
     - name: Test
-      run: dotnet test ./srcDecimalEncoder.sln --no-build --verbosity normal
+      run: dotnet test ./src/DecimalEncoder.sln --no-build --verbosity normal
