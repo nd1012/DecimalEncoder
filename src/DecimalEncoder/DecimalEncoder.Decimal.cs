@@ -11,7 +11,7 @@ namespace wan24
         /// <param name="dec">Decimal</param>
         /// <param name="simple">Use the simple encoding map?</param>
         /// <returns>Encoded</returns>
-        public static string Encode(this decimal dec, bool simple) => dec.Encode(simple ? SIMPLE_MAP : MAP);
+        public static string EncodeDecimal(this decimal dec, bool simple) => dec.EncodeDecimal(simple ? SIMPLE_MAP : MAP);
 
         /// <summary>
         /// Encode a positive integer decimal
@@ -19,7 +19,7 @@ namespace wan24
         /// <param name="dec">Decimal</param>
         /// <param name="map">Encoding map</param>
         /// <returns>Encoded</returns>
-        public static string Encode(this decimal dec, DecimalEncodingMap map) => dec.Encode(map.GetEncodingMap());
+        public static string EncodeDecimal(this decimal dec, DecimalEncodingMap map) => dec.EncodeDecimal(map.GetEncodingMap());
 
         /// <summary>
         /// Encode a positive integer decimal
@@ -27,7 +27,7 @@ namespace wan24
         /// <param name="dec">Decimal</param>
         /// <param name="map">Encoding map</param>
         /// <returns>Encoded</returns>
-        public static string Encode(this decimal dec, string map = MAP)
+        public static string EncodeDecimal(this decimal dec, string map = MAP)
         {
             if (dec < 0 || decimal.Floor(dec) != dec) throw new ArgumentOutOfRangeException(nameof(dec));
             if (map.Length < 1) throw new ArgumentException("Encoding map is empty", nameof(map));
@@ -91,7 +91,7 @@ namespace wan24
         public static (decimal, string) CreateRandomDecimal(string map = MAP)
         {
             decimal res = new(DecimalRandomBits(), DecimalRandomBits(), DecimalRandomBits(), false, 0);
-            return (res, res.Encode(map));
+            return (res, res.EncodeDecimal(map));
         }
 
         /// <summary>

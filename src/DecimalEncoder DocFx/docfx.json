@@ -6,6 +6,9 @@
           "files": [
             "**.csproj"
           ],
+          "exclude": [
+            "**/*Tests.csproj"
+          ],
           "src": ".."
         }
       ],
