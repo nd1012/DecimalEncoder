@@ -20,11 +20,11 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
-    - name: Restore dependencies
-      run: dotnet restore ./src/DecimalEncoder.sln --ignore-failed-sources
+#    - name: Restore dependencies
+#      run: dotnet restore ./src/DecimalEncoder.sln --ignore-failed-sources
     - name: Build lib
-      run: dotnet build ./src/DecimalEncoder/DecimalEncoder.csproj
+      run: dotnet build ./src/DecimalEncoder/DecimalEncoder.csproj --no-restore
     - name: Build tests
-      run: dotnet build "./src/DecimalEncoder Tests/DecimalEncoder Tests.csproj"
+      run: dotnet build "./src/DecimalEncoder Tests/DecimalEncoder Tests.csproj" --no-restore
     - name: Test
       run: dotnet test ./srcDecimalEncoder.sln --no-build --verbosity normal
