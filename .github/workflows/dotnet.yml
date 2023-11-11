@@ -21,7 +21,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore ./src/DecimalEncoder.sln
+      run: dotnet restore ./src/DecimalEncoder.sln --ignore-failed-sources
     - name: Build lib
       run: dotnet build ./src/DecimalEncoder/DecimalEncoder.csproj --no-restore
     - name: Build tests
