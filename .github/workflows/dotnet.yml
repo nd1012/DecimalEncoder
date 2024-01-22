@@ -23,8 +23,8 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ./src/DecimalEncoder.sln --ignore-failed-sources
     - name: Build lib
-      run: dotnet build ./src/DecimalEncoder/DecimalEncoder.csproj --no-restore
+      run: dotnet build ./src/DecimalEncoder/DecimalEncoder.csproj
     - name: Build tests
-      run: dotnet build "./src/DecimalEncoder Tests/DecimalEncoder Tests.csproj" --no-restore
+      run: dotnet build "./src/DecimalEncoder Tests/DecimalEncoder Tests.csproj"
     - name: Test
       run: dotnet test ./src/DecimalEncoder.sln --no-build --verbosity normal
