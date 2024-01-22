@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "K:/Projekte/DecimalEncoder/src/DecimalEncoder DocFx",
+  "source_base_path": "D:/P/DecimalEncoder/src/DecimalEncoder DocFx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "g+pWziE+shePGdSP6vwTnfHLEJkLnvygJTehCkmcRPs="
+          "hash": "IH+dFy5ezRRWX58GddmF1TRordhgWe7jg6bykDia0h8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "zRqC3Myc5NJWh7eadl+bq5TxuRKsiPmC1+BY5VYrpMM="
+          "hash": "I1JGML4mUupwBizpq9HCk0KybdsYp6dcwaFceUzYjQ0="
         }
       },
       "is_incremental": false,
@@ -33,22 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/wan24.DecimalEncoder.html",
-          "hash": "irfRHv02kfhbi6KcdiWlxt6ruYauhIfBCECz2RGZkaA="
+          "hash": "2x2t/CL9Ie9ypUJFCIidvtX+D54T1lMKOOzAY3bQV+E="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/wan24.DecimalEncoder_Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/wan24.DecimalEncoder_Tests.html",
-          "hash": "DjPECkLgV6jOj2ga77H1QmPBjWdBAhQItjLq8cvps6A="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/wan24.DecimalEncodingMap.html",
-          "hash": "uRtxrPgkFDXQqYwAhun8MD/khUoZnA3mXP+wqtO/xXs="
+          "hash": "syw6NMZnuEy5/MwsuB4+Cy5geC50RwMPvid/+t1BnJQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/wan24.html",
-          "hash": "a6Vt7At9zIBd/DAqzxKUwRYeb0bz0yqLu2fJAytDHTA="
+          "hash": "blqmakyMdu5hOarc7GBRnt+ToYPXRzMerrGrs0AtLqg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "I2GB9CsmeeC6uzfPQUK+5ZXKEKWGLaGxFN3x3QIe1F8="
+          "hash": "OczoA1BmPhGPc50opRhhyAYCP5NrsrpnTAavQqpLqus="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "PnZjm3E3o/XacVknG2T/btGphhr0pRtaYUFB8CazSJ0="
+          "hash": "EXb3v5qHCxAe5EJOO3jX7pa6FlyJyOW99O7hFgoe+xE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -127,23 +115,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
-          "skipped_file_count": 4
+          "total_file_count": 3,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -156,8 +146,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

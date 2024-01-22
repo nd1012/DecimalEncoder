@@ -11,7 +11,7 @@ namespace wan24
         /// <param name="dec">Integer</param>
         /// <param name="simple">Use the simple encoding map?</param>
         /// <returns>Encoded</returns>
-        public static string Encode(this ulong dec, bool simple) => dec.Encode(simple ? SIMPLE_MAP : MAP);
+        public static string EncodeDecimal(this ulong dec, bool simple) => dec.EncodeDecimal(simple ? SIMPLE_MAP : MAP);
 
         /// <summary>
         /// Encode a positive integer
@@ -19,7 +19,7 @@ namespace wan24
         /// <param name="dec">Integer</param>
         /// <param name="map">Encoding map</param>
         /// <returns>Encoded</returns>
-        public static string Encode(this ulong dec, DecimalEncodingMap map) => dec.Encode(map.GetEncodingMap());
+        public static string EncodeDecimal(this ulong dec, DecimalEncodingMap map) => dec.EncodeDecimal(map.GetEncodingMap());
 
         /// <summary>
         /// Encode a positive integer
@@ -27,7 +27,7 @@ namespace wan24
         /// <param name="dec">Integer</param>
         /// <param name="map">Encoding map</param>
         /// <returns>Encoded</returns>
-        public static string Encode(this ulong dec, string map = MAP)
+        public static string EncodeDecimal(this ulong dec, string map = MAP)
         {
             if (map.Length < 1) throw new ArgumentException("Encoding map is empty", nameof(map));
             StringBuilder sb = new();
@@ -90,7 +90,7 @@ namespace wan24
         public static (ulong, string) CreateRandomULong(string map = MAP)
         {
             ulong res = BitConverter.ToUInt64(RandomNumberGenerator.GetBytes(sizeof(ulong)));
-            return (res, res.Encode(map));
+            return (res, res.EncodeDecimal(map));
         }
     }
 }

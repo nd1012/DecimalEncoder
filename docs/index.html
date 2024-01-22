@@ -8,7 +8,7 @@
     <title>DecimalEncoder | DecimalEncoder </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="DecimalEncoder | DecimalEncoder ">
-    <meta name="generator" content="docfx 2.59.0.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -62,45 +62,65 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="decimalencoder">DecimalEncoder</h1>
 
-<p>This library encodes numeric values (and byte arrays) using a string encoding map. Supported numeric types are:</p>
+<p>This library encodes numeric values (and byte arrays) using a string encoding
+map. Supported numeric types are:</p>
 <ul>
 <li><code>int</code> (32 bit signed positive integer)</li>
 <li><code>uint</code> (32 bit unsigned integer)</li>
 <li><code>long</code> (64 bit signed positive integer)</li>
 <li><code>ulong</code> (64 bit unsigned integer)</li>
-<li><code>decimal</code></li>
+<li><code>decimal</code> (unsigned positive unscaled)</li>
 <li><code>BigInteger</code> (any size unsigned integer)</li>
 </ul>
 <p>Byte arrays will be converted to a <code>BigInteger</code> for encoding.</p>
-<p>The encoding uses division for finding the encoding map index and compressing the result. The same will run backward for decoding using multiplication.</p>
+<p>The encoding uses division for finding the encoding map index and compressing
+the result. The same will run backward for decoding using multiplication.</p>
+<h2 id="how-to-get-it">How to get it</h2>
+<p>This library is available as
+<a href="https://www.nuget.org/packages/DecimalEncoder/">NuGet package</a>.</p>
 <h2 id="usage">Usage</h2>
 <pre><code class="lang-cs">// Encode a value
-string encoded = RandomNumberGenerator.GetInt32().Encode();
-Console.WriteLing(encoded);
+string encoded = RandomNumberGenerator.GetInt32().EncodeDecimal();
+Console.WriteLine(encoded);
 
 // Decode an encoded value
 int decoded = encoded.ToDecodedInteger();
-Console.WriteLing(decoded);
+Console.WriteLine(decoded);
 
 // Create a random value
 (decoded, encoded) = DecimalEncoder.CreateRandomInteger();
-Console.WriteLing(encoded);
-Console.WriteLing(decoded);
+Console.WriteLine(encoded);
+Console.WriteLine(decoded);
 </code></pre>
 <h2 id="encoding">Encoding</h2>
-<p>Please note that encoding isn't encryption. This encoding is <strong>WAY</strong> more slower than base64 encoding, while the decoding is pretty fast, and the encoded value might be smaller than the original (compression instead of expansion).</p>
-<p>I noticed that the length of the encoding map does effect the encoding speed for the different numeric types. For example, the built in encoding maps are fast for all types except decimal, where the encoding takes about 5 times longer (see the test runtimes). The encoding performance depends on the availability of optimized low level number division algorithms and the used divisor (the encoding maps length will be used), and it may also be different with different CPUs or operating systems.</p>
+<p>Please note that encoding isn't encryption. This encoding is <strong>WAY</strong> more
+slower than base64 encoding, while the decoding is pretty fast, and the
+encoded value might be smaller than the original (compression instead of
+expansion).</p>
+<p>I noticed that the length of the encoding map does effect the encoding speed
+for the different numeric types. For example, the built in encoding maps are
+fast for all types except decimal, where the encoding takes about 5 times
+longer (see the test runtimes). The encoding performance depends on the
+availability of optimized low level number division algorithms and the used
+divisor (the encoding maps length will be used), and it may also be different
+with different CPUs or operating systems.</p>
 <h3 id="encoding-maps">Encoding maps</h3>
-<p>There are several encoding maps predefined (accessable using the <code>DecimalEncodingMap</code> enumeration):</p>
+<p>There are several encoding maps predefined (accessable using the
+<code>DecimalEncodingMap</code> enumeration):</p>
 <ul>
 <li><code>Normal</code>: decimals 0-9, letters a-z and A-Z and basic special characters</li>
 <li><code>Simple</code>: decimals 0-9 and letters a-z and A-Z</li>
-<li><code>Extended</code>: decimals 0-9, letters a-z and A-Z, more special characters and umlauts</li>
-<li><code>Safe</code>: decimals 2-9 and letters a-z (without b, c, d, i, j, l, o, p, u, v) and A-Z (without C, I, O, Q, U, V)</li>
-<li><code>SafeExtended</code>: decimals 2-9, letters a-z (without b, c, d, i, j, l, o, p, u, v) and A-Z (without C, I, O, Q, U, V) and some basic special characters</li>
+<li><code>Extended</code>: decimals 0-9, letters a-z and A-Z, more special characters and
+umlauts</li>
+<li><code>Safe</code>: decimals 2-9 and letters a-z (without b, c, d, i, j, l, o, p, u, v)
+and A-Z (without C, I, O, Q, U, V)</li>
+<li><code>SafeExtended</code>: decimals 2-9, letters a-z (without b, c, d, i, j, l, o, p,
+u, v) and A-Z (without C, I, O, Q, U, V) and some basic special characters</li>
 </ul>
-<p>You're free to use any individual encoding map. An encoding map contains the symbol list to use, where every symbol needs to be unique.</p>
-<p>The &quot;Safe&quot; encoding maps are designed to avoid symbols that may be confounded with other similar looking symbols.</p>
+<p>The &quot;Safe&quot; encoding maps are designed to avoid symbols that may be confounded
+with other similar looking symbols.</p>
+<p>You're free to use any individual encoding map. An encoding map contains the
+symbol list to use, where every symbol needs to be unique.</p>
 </article>
           </div>
           
@@ -108,6 +128,9 @@ Console.WriteLing(decoded);
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/nd1012/DecimalEncoder/blob/dev/src/DecimalEncoder DocFx/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

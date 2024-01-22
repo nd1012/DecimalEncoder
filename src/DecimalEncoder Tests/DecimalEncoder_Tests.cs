@@ -17,9 +17,9 @@ namespace wan24
             Debug.WriteLine(dec);
             Debug.WriteLine($"{enc.Length,3}\t{DecimalEncodingMap.Simple,-13}\t{enc}");
             Assert.AreEqual(dec, enc.ToDecodedDecimal(simple: true));
-            Assert.AreEqual(enc, dec.Encode(simple: true));
-            Assert.ThrowsException<ArgumentOutOfRangeException>(() => ((decimal)-1).Encode());
-            Assert.ThrowsException<ArgumentException>(() => ((decimal)0).Encode(string.Empty));
+            Assert.AreEqual(enc, dec.EncodeDecimal(simple: true));
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() => ((decimal)-1).EncodeDecimal());
+            Assert.ThrowsException<ArgumentException>(() => ((decimal)0).EncodeDecimal(string.Empty));
             Assert.ThrowsException<InvalidDataException>(() => "|".ToDecodedDecimal());
 
             foreach (DecimalEncodingMap map in new DecimalEncodingMap[]
@@ -30,10 +30,10 @@ namespace wan24
                 DecimalEncodingMap.SafeExtended
             })
             {
-                enc = dec.Encode(map);
+                enc = dec.EncodeDecimal(map);
                 Debug.WriteLine($"{enc.Length,3}\t{map,-13}\t{enc}");
                 Assert.AreEqual(dec, enc.ToDecodedDecimal(map));
-                Assert.AreEqual(enc, dec.Encode(map));
+                Assert.AreEqual(enc, dec.EncodeDecimal(map));
             }
         }
 
@@ -44,9 +44,9 @@ namespace wan24
             Debug.WriteLine(dec);
             Debug.WriteLine($"{enc.Length,3}\t{DecimalEncodingMap.Simple,-13}\t{enc}");
             Assert.AreEqual(dec, enc.ToDecodedInteger(simple: true));
-            Assert.AreEqual(enc, dec.Encode(simple: true));
-            Assert.ThrowsException<ArgumentOutOfRangeException>(() => (-1).Encode());
-            Assert.ThrowsException<ArgumentException>(() => 0.Encode(string.Empty));
+            Assert.AreEqual(enc, dec.EncodeDecimal(simple: true));
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() => (-1).EncodeDecimal());
+            Assert.ThrowsException<ArgumentException>(() => 0.EncodeDecimal(string.Empty));
             Assert.ThrowsException<InvalidDataException>(() => "|".ToDecodedInteger());
 
             foreach (DecimalEncodingMap map in new DecimalEncodingMap[]
@@ -57,10 +57,10 @@ namespace wan24
                 DecimalEncodingMap.SafeExtended
             })
             {
-                enc = dec.Encode(map);
+                enc = dec.EncodeDecimal(map);
                 Debug.WriteLine($"{enc.Length,3}\t{map,-13}\t{enc}");
                 Assert.AreEqual(dec, enc.ToDecodedInteger(map));
-                Assert.AreEqual(enc, dec.Encode(map));
+                Assert.AreEqual(enc, dec.EncodeDecimal(map));
             }
         }
 
@@ -71,8 +71,8 @@ namespace wan24
             Debug.WriteLine(dec);
             Debug.WriteLine($"{enc.Length,3}\t{DecimalEncodingMap.Simple,-13}\t{enc}");
             Assert.AreEqual(dec, enc.ToDecodedUInteger(simple: true));
-            Assert.AreEqual(enc, dec.Encode(simple: true));
-            Assert.ThrowsException<ArgumentException>(() => ((uint)0).Encode(string.Empty));
+            Assert.AreEqual(enc, dec.EncodeDecimal(simple: true));
+            Assert.ThrowsException<ArgumentException>(() => ((uint)0).EncodeDecimal(string.Empty));
             Assert.ThrowsException<InvalidDataException>(() => "|".ToDecodedUInteger());
 
             foreach (DecimalEncodingMap map in new DecimalEncodingMap[]
@@ -83,10 +83,10 @@ namespace wan24
                 DecimalEncodingMap.SafeExtended
             })
             {
-                enc = dec.Encode(map);
+                enc = dec.EncodeDecimal(map);
                 Debug.WriteLine($"{enc.Length,3}\t{map,-13}\t{enc}");
                 Assert.AreEqual(dec, enc.ToDecodedUInteger(map));
-                Assert.AreEqual(enc, dec.Encode(map));
+                Assert.AreEqual(enc, dec.EncodeDecimal(map));
             }
         }
 
@@ -135,9 +135,9 @@ namespace wan24
             Debug.WriteLine(dec);
             Debug.WriteLine($"{enc.Length,3}\t{DecimalEncodingMap.Simple,-13}\t{enc}");
             Assert.AreEqual(dec, enc.ToDecodedLong(simple: true));
-            Assert.AreEqual(enc, dec.Encode(simple: true));
-            Assert.ThrowsException<ArgumentOutOfRangeException>(() => ((long)-1).Encode());
-            Assert.ThrowsException<ArgumentException>(() => ((long)0).Encode(string.Empty));
+            Assert.AreEqual(enc, dec.EncodeDecimal(simple: true));
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() => ((long)-1).EncodeDecimal());
+            Assert.ThrowsException<ArgumentException>(() => ((long)0).EncodeDecimal(string.Empty));
             Assert.ThrowsException<InvalidDataException>(() => "|".ToDecodedLong());
 
             foreach (DecimalEncodingMap map in new DecimalEncodingMap[]
@@ -148,10 +148,10 @@ namespace wan24
                 DecimalEncodingMap.SafeExtended
             })
             {
-                enc = dec.Encode(map);
+                enc = dec.EncodeDecimal(map);
                 Debug.WriteLine($"{enc.Length,3}\t{map,-13}\t{enc}");
                 Assert.AreEqual(dec, enc.ToDecodedLong(map));
-                Assert.AreEqual(enc, dec.Encode(map));
+                Assert.AreEqual(enc, dec.EncodeDecimal(map));
             }
         }
 
@@ -162,8 +162,8 @@ namespace wan24
             Debug.WriteLine(dec);
             Debug.WriteLine($"{enc.Length,3}\t{DecimalEncodingMap.Simple,-13}\t{enc}");
             Assert.AreEqual(dec, enc.ToDecodedULong(simple: true));
-            Assert.AreEqual(enc, dec.Encode(simple: true));
-            Assert.ThrowsException<ArgumentException>(() => ((ulong)0).Encode(string.Empty));
+            Assert.AreEqual(enc, dec.EncodeDecimal(simple: true));
+            Assert.ThrowsException<ArgumentException>(() => ((ulong)0).EncodeDecimal(string.Empty));
             Assert.ThrowsException<InvalidDataException>(() => "|".ToDecodedULong());
 
             foreach (DecimalEncodingMap map in new DecimalEncodingMap[]
@@ -174,10 +174,10 @@ namespace wan24
                 DecimalEncodingMap.SafeExtended
             })
             {
-                enc = dec.Encode(map);
+                enc = dec.EncodeDecimal(map);
                 Debug.WriteLine($"{enc.Length,3}\t{map,-13}\t{enc}");
                 Assert.AreEqual(dec, enc.ToDecodedULong(map));
-                Assert.AreEqual(enc, dec.Encode(map));
+                Assert.AreEqual(enc, dec.EncodeDecimal(map));
             }
         }
     }

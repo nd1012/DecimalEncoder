@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecimalEncoder", "DecimalEncoder.csproj", "{36123481-2494-4E61-964F-91C80BE3EC46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecimalEncoder", "DecimalEncoder\DecimalEncoder.csproj", "{36123481-2494-4E61-964F-91C80BE3EC46}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecimalEncoder Tests", "..\DecimalEncoder Tests\DecimalEncoder Tests.csproj", "{12BE2B30-9ACB-4961-9F4F-961EA3E4FB7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecimalEncoder Tests", "DecimalEncoder Tests\DecimalEncoder Tests.csproj", "{12BE2B30-9ACB-4961-9F4F-961EA3E4FB7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalEncoder DocFx", "..\DecimalEncoder DocFx\DecimalEncoder DocFx.csproj", "{94022322-72CA-46A0-8696-1C3662625050}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalEncoder DocFx", "DecimalEncoder DocFx\DecimalEncoder DocFx.csproj", "{94022322-72CA-46A0-8696-1C3662625050}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

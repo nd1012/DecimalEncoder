@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>decenc</AssemblyName>
@@ -16,22 +16,32 @@
     <PackageProjectUrl>https://github.com/nd1012/DecimalEncoder</PackageProjectUrl>
     <RepositoryUrl>https://github.com/nd1012/DecimalEncoder</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>.net,encoding,encoder</PackageTags>
-    <NeutralLanguage>en-US</NeutralLanguage>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
+    <PackageTags>encoding,encoder</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	  <DebugType>embedded</DebugType>
+	  <EmbedAllSources>true</EmbedAllSources>
+	  <Title>DecimalEncoder</Title>
+	  <Version>2.0.0</Version>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Update="LICENSE">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
 	  <None Include="LICENSE">
 		  <Pack>True</Pack>
 		  <PackagePath></PackagePath>
 	  </None>
   </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent" Condition="'$(OS)' == 'Windows_NT'">
+    <Exec Command="copy /Y &quot;$(ProjectDir)..\..\README.md&quot; &quot;$(ProjectDir)README.md&quot;&#xD;&#xA;" />
+  </Target>
 
 </Project>

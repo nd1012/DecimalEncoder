@@ -169,60 +169,6 @@ references:
   isSpec: "True"
   fullName: wan24.DecimalEncoder.CreateRandomULong
   nameWithType: DecimalEncoder.CreateRandomULong
-- uid: wan24.DecimalEncoder.Encode(System.Decimal,System.Boolean)
-  name: Encode(Decimal, Boolean)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Decimal_System_Boolean_
-  commentId: M:wan24.DecimalEncoder.Encode(System.Decimal,System.Boolean)
-  fullName: wan24.DecimalEncoder.Encode(System.Decimal, System.Boolean)
-  nameWithType: DecimalEncoder.Encode(Decimal, Boolean)
-- uid: wan24.DecimalEncoder.Encode(System.Decimal,System.String)
-  name: Encode(Decimal, String)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Decimal_System_String_
-  commentId: M:wan24.DecimalEncoder.Encode(System.Decimal,System.String)
-  fullName: wan24.DecimalEncoder.Encode(System.Decimal, System.String)
-  nameWithType: DecimalEncoder.Encode(Decimal, String)
-- uid: wan24.DecimalEncoder.Encode(System.Decimal,wan24.DecimalEncodingMap)
-  name: Encode(Decimal, DecimalEncodingMap)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Decimal_wan24_DecimalEncodingMap_
-  commentId: M:wan24.DecimalEncoder.Encode(System.Decimal,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.Encode(System.Decimal, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.Encode(Decimal, DecimalEncodingMap)
-- uid: wan24.DecimalEncoder.Encode(System.Int32,System.Boolean)
-  name: Encode(Int32, Boolean)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Int32_System_Boolean_
-  commentId: M:wan24.DecimalEncoder.Encode(System.Int32,System.Boolean)
-  fullName: wan24.DecimalEncoder.Encode(System.Int32, System.Boolean)
-  nameWithType: DecimalEncoder.Encode(Int32, Boolean)
-- uid: wan24.DecimalEncoder.Encode(System.Int32,System.String)
-  name: Encode(Int32, String)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Int32_System_String_
-  commentId: M:wan24.DecimalEncoder.Encode(System.Int32,System.String)
-  fullName: wan24.DecimalEncoder.Encode(System.Int32, System.String)
-  nameWithType: DecimalEncoder.Encode(Int32, String)
-- uid: wan24.DecimalEncoder.Encode(System.Int32,wan24.DecimalEncodingMap)
-  name: Encode(Int32, DecimalEncodingMap)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Int32_wan24_DecimalEncodingMap_
-  commentId: M:wan24.DecimalEncoder.Encode(System.Int32,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.Encode(System.Int32, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.Encode(Int32, DecimalEncodingMap)
-- uid: wan24.DecimalEncoder.Encode(System.Int64,System.Boolean)
-  name: Encode(Int64, Boolean)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Int64_System_Boolean_
-  commentId: M:wan24.DecimalEncoder.Encode(System.Int64,System.Boolean)
-  fullName: wan24.DecimalEncoder.Encode(System.Int64, System.Boolean)
-  nameWithType: DecimalEncoder.Encode(Int64, Boolean)
-- uid: wan24.DecimalEncoder.Encode(System.Int64,System.String)
-  name: Encode(Int64, String)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Int64_System_String_
-  commentId: M:wan24.DecimalEncoder.Encode(System.Int64,System.String)
-  fullName: wan24.DecimalEncoder.Encode(System.Int64, System.String)
-  nameWithType: DecimalEncoder.Encode(Int64, String)
-- uid: wan24.DecimalEncoder.Encode(System.Int64,wan24.DecimalEncodingMap)
-  name: Encode(Int64, DecimalEncodingMap)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Int64_wan24_DecimalEncodingMap_
-  commentId: M:wan24.DecimalEncoder.Encode(System.Int64,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.Encode(System.Int64, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.Encode(Int64, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.Encode(System.Numerics.BigInteger,System.Boolean)
   name: Encode(BigInteger, Boolean)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Numerics_BigInteger_System_Boolean_
@@ -241,42 +187,6 @@ references:
   commentId: M:wan24.DecimalEncoder.Encode(System.Numerics.BigInteger,wan24.DecimalEncodingMap)
   fullName: wan24.DecimalEncoder.Encode(System.Numerics.BigInteger, wan24.DecimalEncodingMap)
   nameWithType: DecimalEncoder.Encode(BigInteger, DecimalEncodingMap)
-- uid: wan24.DecimalEncoder.Encode(System.UInt32,System.Boolean)
-  name: Encode(UInt32, Boolean)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_UInt32_System_Boolean_
-  commentId: M:wan24.DecimalEncoder.Encode(System.UInt32,System.Boolean)
-  fullName: wan24.DecimalEncoder.Encode(System.UInt32, System.Boolean)
-  nameWithType: DecimalEncoder.Encode(UInt32, Boolean)
-- uid: wan24.DecimalEncoder.Encode(System.UInt32,System.String)
-  name: Encode(UInt32, String)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_UInt32_System_String_
-  commentId: M:wan24.DecimalEncoder.Encode(System.UInt32,System.String)
-  fullName: wan24.DecimalEncoder.Encode(System.UInt32, System.String)
-  nameWithType: DecimalEncoder.Encode(UInt32, String)
-- uid: wan24.DecimalEncoder.Encode(System.UInt32,wan24.DecimalEncodingMap)
-  name: Encode(UInt32, DecimalEncodingMap)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_UInt32_wan24_DecimalEncodingMap_
-  commentId: M:wan24.DecimalEncoder.Encode(System.UInt32,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.Encode(System.UInt32, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.Encode(UInt32, DecimalEncodingMap)
-- uid: wan24.DecimalEncoder.Encode(System.UInt64,System.Boolean)
-  name: Encode(UInt64, Boolean)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_UInt64_System_Boolean_
-  commentId: M:wan24.DecimalEncoder.Encode(System.UInt64,System.Boolean)
-  fullName: wan24.DecimalEncoder.Encode(System.UInt64, System.Boolean)
-  nameWithType: DecimalEncoder.Encode(UInt64, Boolean)
-- uid: wan24.DecimalEncoder.Encode(System.UInt64,System.String)
-  name: Encode(UInt64, String)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_UInt64_System_String_
-  commentId: M:wan24.DecimalEncoder.Encode(System.UInt64,System.String)
-  fullName: wan24.DecimalEncoder.Encode(System.UInt64, System.String)
-  nameWithType: DecimalEncoder.Encode(UInt64, String)
-- uid: wan24.DecimalEncoder.Encode(System.UInt64,wan24.DecimalEncodingMap)
-  name: Encode(UInt64, DecimalEncodingMap)
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_UInt64_wan24_DecimalEncodingMap_
-  commentId: M:wan24.DecimalEncoder.Encode(System.UInt64,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.Encode(System.UInt64, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.Encode(UInt64, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.Encode*
   name: Encode
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_
@@ -284,6 +194,103 @@ references:
   isSpec: "True"
   fullName: wan24.DecimalEncoder.Encode
   nameWithType: DecimalEncoder.Encode
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.Decimal,System.Boolean)
+  name: EncodeDecimal(Decimal, Boolean)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Decimal_System_Boolean_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Decimal,System.Boolean)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Decimal, System.Boolean)
+  nameWithType: DecimalEncoder.EncodeDecimal(Decimal, Boolean)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.Decimal,System.String)
+  name: EncodeDecimal(Decimal, String)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Decimal_System_String_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Decimal,System.String)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Decimal, System.String)
+  nameWithType: DecimalEncoder.EncodeDecimal(Decimal, String)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.Decimal,wan24.DecimalEncodingMap)
+  name: EncodeDecimal(Decimal, DecimalEncodingMap)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Decimal_wan24_DecimalEncodingMap_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Decimal,wan24.DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Decimal, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.EncodeDecimal(Decimal, DecimalEncodingMap)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.Int32,System.Boolean)
+  name: EncodeDecimal(Int32, Boolean)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Int32_System_Boolean_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Int32,System.Boolean)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Int32, System.Boolean)
+  nameWithType: DecimalEncoder.EncodeDecimal(Int32, Boolean)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.Int32,System.String)
+  name: EncodeDecimal(Int32, String)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Int32_System_String_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Int32,System.String)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Int32, System.String)
+  nameWithType: DecimalEncoder.EncodeDecimal(Int32, String)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.Int32,wan24.DecimalEncodingMap)
+  name: EncodeDecimal(Int32, DecimalEncodingMap)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Int32_wan24_DecimalEncodingMap_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Int32,wan24.DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Int32, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.EncodeDecimal(Int32, DecimalEncodingMap)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.Int64,System.Boolean)
+  name: EncodeDecimal(Int64, Boolean)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Int64_System_Boolean_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Int64,System.Boolean)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Int64, System.Boolean)
+  nameWithType: DecimalEncoder.EncodeDecimal(Int64, Boolean)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.Int64,System.String)
+  name: EncodeDecimal(Int64, String)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Int64_System_String_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Int64,System.String)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Int64, System.String)
+  nameWithType: DecimalEncoder.EncodeDecimal(Int64, String)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.Int64,wan24.DecimalEncodingMap)
+  name: EncodeDecimal(Int64, DecimalEncodingMap)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Int64_wan24_DecimalEncodingMap_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Int64,wan24.DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Int64, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.EncodeDecimal(Int64, DecimalEncodingMap)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.UInt32,System.Boolean)
+  name: EncodeDecimal(UInt32, Boolean)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_UInt32_System_Boolean_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.UInt32,System.Boolean)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.UInt32, System.Boolean)
+  nameWithType: DecimalEncoder.EncodeDecimal(UInt32, Boolean)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.UInt32,System.String)
+  name: EncodeDecimal(UInt32, String)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_UInt32_System_String_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.UInt32,System.String)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.UInt32, System.String)
+  nameWithType: DecimalEncoder.EncodeDecimal(UInt32, String)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.UInt32,wan24.DecimalEncodingMap)
+  name: EncodeDecimal(UInt32, DecimalEncodingMap)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_UInt32_wan24_DecimalEncodingMap_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.UInt32,wan24.DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.UInt32, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.EncodeDecimal(UInt32, DecimalEncodingMap)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.UInt64,System.Boolean)
+  name: EncodeDecimal(UInt64, Boolean)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_UInt64_System_Boolean_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.UInt64,System.Boolean)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.UInt64, System.Boolean)
+  nameWithType: DecimalEncoder.EncodeDecimal(UInt64, Boolean)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.UInt64,System.String)
+  name: EncodeDecimal(UInt64, String)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_UInt64_System_String_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.UInt64,System.String)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.UInt64, System.String)
+  nameWithType: DecimalEncoder.EncodeDecimal(UInt64, String)
+- uid: wan24.DecimalEncoder.EncodeDecimal(System.UInt64,wan24.DecimalEncodingMap)
+  name: EncodeDecimal(UInt64, DecimalEncodingMap)
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_UInt64_wan24_DecimalEncodingMap_
+  commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.UInt64,wan24.DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(System.UInt64, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.EncodeDecimal(UInt64, DecimalEncodingMap)
+- uid: wan24.DecimalEncoder.EncodeDecimal*
+  name: EncodeDecimal
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_
+  commentId: Overload:wan24.DecimalEncoder.EncodeDecimal
+  isSpec: "True"
+  fullName: wan24.DecimalEncoder.EncodeDecimal
+  nameWithType: DecimalEncoder.EncodeDecimal
 - uid: wan24.DecimalEncoder.EncodeInteger(System.Byte[],System.Boolean)
   name: EncodeInteger(Byte[], Boolean)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeInteger_System_Byte___System_Boolean_
@@ -511,103 +518,6 @@ references:
   isSpec: "True"
   fullName: wan24.DecimalEncoder.ToDecodedULong
   nameWithType: DecimalEncoder.ToDecodedULong
-- uid: wan24.DecimalEncoder_Tests
-  name: DecimalEncoder_Tests
-  href: api/wan24.DecimalEncoder_Tests.html
-  commentId: T:wan24.DecimalEncoder_Tests
-  fullName: wan24.DecimalEncoder_Tests
-  nameWithType: DecimalEncoder_Tests
-- uid: wan24.DecimalEncoder_Tests.BigInteger_Bytes_Tests
-  name: BigInteger_Bytes_Tests()
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_BigInteger_Bytes_Tests
-  commentId: M:wan24.DecimalEncoder_Tests.BigInteger_Bytes_Tests
-  fullName: wan24.DecimalEncoder_Tests.BigInteger_Bytes_Tests()
-  nameWithType: DecimalEncoder_Tests.BigInteger_Bytes_Tests()
-- uid: wan24.DecimalEncoder_Tests.BigInteger_Bytes_Tests*
-  name: BigInteger_Bytes_Tests
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_BigInteger_Bytes_Tests_
-  commentId: Overload:wan24.DecimalEncoder_Tests.BigInteger_Bytes_Tests
-  isSpec: "True"
-  fullName: wan24.DecimalEncoder_Tests.BigInteger_Bytes_Tests
-  nameWithType: DecimalEncoder_Tests.BigInteger_Bytes_Tests
-- uid: wan24.DecimalEncoder_Tests.BigInteger_Tests
-  name: BigInteger_Tests()
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_BigInteger_Tests
-  commentId: M:wan24.DecimalEncoder_Tests.BigInteger_Tests
-  fullName: wan24.DecimalEncoder_Tests.BigInteger_Tests()
-  nameWithType: DecimalEncoder_Tests.BigInteger_Tests()
-- uid: wan24.DecimalEncoder_Tests.BigInteger_Tests*
-  name: BigInteger_Tests
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_BigInteger_Tests_
-  commentId: Overload:wan24.DecimalEncoder_Tests.BigInteger_Tests
-  isSpec: "True"
-  fullName: wan24.DecimalEncoder_Tests.BigInteger_Tests
-  nameWithType: DecimalEncoder_Tests.BigInteger_Tests
-- uid: wan24.DecimalEncoder_Tests.Decimal_Tests
-  name: Decimal_Tests()
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_Decimal_Tests
-  commentId: M:wan24.DecimalEncoder_Tests.Decimal_Tests
-  fullName: wan24.DecimalEncoder_Tests.Decimal_Tests()
-  nameWithType: DecimalEncoder_Tests.Decimal_Tests()
-- uid: wan24.DecimalEncoder_Tests.Decimal_Tests*
-  name: Decimal_Tests
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_Decimal_Tests_
-  commentId: Overload:wan24.DecimalEncoder_Tests.Decimal_Tests
-  isSpec: "True"
-  fullName: wan24.DecimalEncoder_Tests.Decimal_Tests
-  nameWithType: DecimalEncoder_Tests.Decimal_Tests
-- uid: wan24.DecimalEncoder_Tests.Integer_Tests
-  name: Integer_Tests()
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_Integer_Tests
-  commentId: M:wan24.DecimalEncoder_Tests.Integer_Tests
-  fullName: wan24.DecimalEncoder_Tests.Integer_Tests()
-  nameWithType: DecimalEncoder_Tests.Integer_Tests()
-- uid: wan24.DecimalEncoder_Tests.Integer_Tests*
-  name: Integer_Tests
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_Integer_Tests_
-  commentId: Overload:wan24.DecimalEncoder_Tests.Integer_Tests
-  isSpec: "True"
-  fullName: wan24.DecimalEncoder_Tests.Integer_Tests
-  nameWithType: DecimalEncoder_Tests.Integer_Tests
-- uid: wan24.DecimalEncoder_Tests.Long_Tests
-  name: Long_Tests()
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_Long_Tests
-  commentId: M:wan24.DecimalEncoder_Tests.Long_Tests
-  fullName: wan24.DecimalEncoder_Tests.Long_Tests()
-  nameWithType: DecimalEncoder_Tests.Long_Tests()
-- uid: wan24.DecimalEncoder_Tests.Long_Tests*
-  name: Long_Tests
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_Long_Tests_
-  commentId: Overload:wan24.DecimalEncoder_Tests.Long_Tests
-  isSpec: "True"
-  fullName: wan24.DecimalEncoder_Tests.Long_Tests
-  nameWithType: DecimalEncoder_Tests.Long_Tests
-- uid: wan24.DecimalEncoder_Tests.UInteger_Tests
-  name: UInteger_Tests()
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_UInteger_Tests
-  commentId: M:wan24.DecimalEncoder_Tests.UInteger_Tests
-  fullName: wan24.DecimalEncoder_Tests.UInteger_Tests()
-  nameWithType: DecimalEncoder_Tests.UInteger_Tests()
-- uid: wan24.DecimalEncoder_Tests.UInteger_Tests*
-  name: UInteger_Tests
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_UInteger_Tests_
-  commentId: Overload:wan24.DecimalEncoder_Tests.UInteger_Tests
-  isSpec: "True"
-  fullName: wan24.DecimalEncoder_Tests.UInteger_Tests
-  nameWithType: DecimalEncoder_Tests.UInteger_Tests
-- uid: wan24.DecimalEncoder_Tests.ULong_Tests
-  name: ULong_Tests()
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_ULong_Tests
-  commentId: M:wan24.DecimalEncoder_Tests.ULong_Tests
-  fullName: wan24.DecimalEncoder_Tests.ULong_Tests()
-  nameWithType: DecimalEncoder_Tests.ULong_Tests()
-- uid: wan24.DecimalEncoder_Tests.ULong_Tests*
-  name: ULong_Tests
-  href: api/wan24.DecimalEncoder_Tests.html#wan24_DecimalEncoder_Tests_ULong_Tests_
-  commentId: Overload:wan24.DecimalEncoder_Tests.ULong_Tests
-  isSpec: "True"
-  fullName: wan24.DecimalEncoder_Tests.ULong_Tests
-  nameWithType: DecimalEncoder_Tests.ULong_Tests
 - uid: wan24.DecimalEncodingMap
   name: DecimalEncodingMap
   href: api/wan24.DecimalEncodingMap.html
