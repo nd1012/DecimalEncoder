@@ -20,23 +20,32 @@ references:
   fullName: wan24.DecimalEncoder.BIG_INT_LENGTH
   nameWithType: DecimalEncoder.BIG_INT_LENGTH
 - uid: wan24.DecimalEncoder.CreateRandomBigInteger(System.Boolean,System.Int32)
-  name: CreateRandomBigInteger(Boolean, Int32)
+  name: CreateRandomBigInteger(bool, int)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomBigInteger_System_Boolean_System_Int32_
   commentId: M:wan24.DecimalEncoder.CreateRandomBigInteger(System.Boolean,System.Int32)
-  fullName: wan24.DecimalEncoder.CreateRandomBigInteger(System.Boolean, System.Int32)
-  nameWithType: DecimalEncoder.CreateRandomBigInteger(Boolean, Int32)
+  name.vb: CreateRandomBigInteger(Boolean, Integer)
+  fullName: wan24.DecimalEncoder.CreateRandomBigInteger(bool, int)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomBigInteger(Boolean, Integer)
+  nameWithType: DecimalEncoder.CreateRandomBigInteger(bool, int)
+  nameWithType.vb: DecimalEncoder.CreateRandomBigInteger(Boolean, Integer)
 - uid: wan24.DecimalEncoder.CreateRandomBigInteger(System.String,System.Int32)
-  name: CreateRandomBigInteger(String, Int32)
+  name: CreateRandomBigInteger(string, int)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomBigInteger_System_String_System_Int32_
   commentId: M:wan24.DecimalEncoder.CreateRandomBigInteger(System.String,System.Int32)
-  fullName: wan24.DecimalEncoder.CreateRandomBigInteger(System.String, System.Int32)
-  nameWithType: DecimalEncoder.CreateRandomBigInteger(String, Int32)
+  name.vb: CreateRandomBigInteger(String, Integer)
+  fullName: wan24.DecimalEncoder.CreateRandomBigInteger(string, int)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomBigInteger(String, Integer)
+  nameWithType: DecimalEncoder.CreateRandomBigInteger(string, int)
+  nameWithType.vb: DecimalEncoder.CreateRandomBigInteger(String, Integer)
 - uid: wan24.DecimalEncoder.CreateRandomBigInteger(wan24.DecimalEncodingMap,System.Int32)
-  name: CreateRandomBigInteger(DecimalEncodingMap, Int32)
+  name: CreateRandomBigInteger(DecimalEncodingMap, int)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomBigInteger_wan24_DecimalEncodingMap_System_Int32_
   commentId: M:wan24.DecimalEncoder.CreateRandomBigInteger(wan24.DecimalEncodingMap,System.Int32)
-  fullName: wan24.DecimalEncoder.CreateRandomBigInteger(wan24.DecimalEncodingMap, System.Int32)
-  nameWithType: DecimalEncoder.CreateRandomBigInteger(DecimalEncodingMap, Int32)
+  name.vb: CreateRandomBigInteger(DecimalEncodingMap, Integer)
+  fullName: wan24.DecimalEncoder.CreateRandomBigInteger(wan24.DecimalEncodingMap, int)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomBigInteger(wan24.DecimalEncodingMap, Integer)
+  nameWithType: DecimalEncoder.CreateRandomBigInteger(DecimalEncodingMap, int)
+  nameWithType.vb: DecimalEncoder.CreateRandomBigInteger(DecimalEncodingMap, Integer)
 - uid: wan24.DecimalEncoder.CreateRandomBigInteger*
   name: CreateRandomBigInteger
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomBigInteger_
@@ -45,17 +54,23 @@ references:
   fullName: wan24.DecimalEncoder.CreateRandomBigInteger
   nameWithType: DecimalEncoder.CreateRandomBigInteger
 - uid: wan24.DecimalEncoder.CreateRandomDecimal(System.Boolean)
-  name: CreateRandomDecimal(Boolean)
+  name: CreateRandomDecimal(bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomDecimal_System_Boolean_
   commentId: M:wan24.DecimalEncoder.CreateRandomDecimal(System.Boolean)
-  fullName: wan24.DecimalEncoder.CreateRandomDecimal(System.Boolean)
-  nameWithType: DecimalEncoder.CreateRandomDecimal(Boolean)
+  name.vb: CreateRandomDecimal(Boolean)
+  fullName: wan24.DecimalEncoder.CreateRandomDecimal(bool)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomDecimal(Boolean)
+  nameWithType: DecimalEncoder.CreateRandomDecimal(bool)
+  nameWithType.vb: DecimalEncoder.CreateRandomDecimal(Boolean)
 - uid: wan24.DecimalEncoder.CreateRandomDecimal(System.String)
-  name: CreateRandomDecimal(String)
+  name: CreateRandomDecimal(string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomDecimal_System_String_
   commentId: M:wan24.DecimalEncoder.CreateRandomDecimal(System.String)
-  fullName: wan24.DecimalEncoder.CreateRandomDecimal(System.String)
-  nameWithType: DecimalEncoder.CreateRandomDecimal(String)
+  name.vb: CreateRandomDecimal(String)
+  fullName: wan24.DecimalEncoder.CreateRandomDecimal(string)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomDecimal(String)
+  nameWithType: DecimalEncoder.CreateRandomDecimal(string)
+  nameWithType.vb: DecimalEncoder.CreateRandomDecimal(String)
 - uid: wan24.DecimalEncoder.CreateRandomDecimal(wan24.DecimalEncodingMap)
   name: CreateRandomDecimal(DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomDecimal_wan24_DecimalEncodingMap_
@@ -70,17 +85,23 @@ references:
   fullName: wan24.DecimalEncoder.CreateRandomDecimal
   nameWithType: DecimalEncoder.CreateRandomDecimal
 - uid: wan24.DecimalEncoder.CreateRandomInteger(System.Boolean)
-  name: CreateRandomInteger(Boolean)
+  name: CreateRandomInteger(bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomInteger_System_Boolean_
   commentId: M:wan24.DecimalEncoder.CreateRandomInteger(System.Boolean)
-  fullName: wan24.DecimalEncoder.CreateRandomInteger(System.Boolean)
-  nameWithType: DecimalEncoder.CreateRandomInteger(Boolean)
+  name.vb: CreateRandomInteger(Boolean)
+  fullName: wan24.DecimalEncoder.CreateRandomInteger(bool)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomInteger(Boolean)
+  nameWithType: DecimalEncoder.CreateRandomInteger(bool)
+  nameWithType.vb: DecimalEncoder.CreateRandomInteger(Boolean)
 - uid: wan24.DecimalEncoder.CreateRandomInteger(System.String)
-  name: CreateRandomInteger(String)
+  name: CreateRandomInteger(string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomInteger_System_String_
   commentId: M:wan24.DecimalEncoder.CreateRandomInteger(System.String)
-  fullName: wan24.DecimalEncoder.CreateRandomInteger(System.String)
-  nameWithType: DecimalEncoder.CreateRandomInteger(String)
+  name.vb: CreateRandomInteger(String)
+  fullName: wan24.DecimalEncoder.CreateRandomInteger(string)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomInteger(String)
+  nameWithType: DecimalEncoder.CreateRandomInteger(string)
+  nameWithType.vb: DecimalEncoder.CreateRandomInteger(String)
 - uid: wan24.DecimalEncoder.CreateRandomInteger(wan24.DecimalEncodingMap)
   name: CreateRandomInteger(DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomInteger_wan24_DecimalEncodingMap_
@@ -95,17 +116,23 @@ references:
   fullName: wan24.DecimalEncoder.CreateRandomInteger
   nameWithType: DecimalEncoder.CreateRandomInteger
 - uid: wan24.DecimalEncoder.CreateRandomLong(System.Boolean)
-  name: CreateRandomLong(Boolean)
+  name: CreateRandomLong(bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomLong_System_Boolean_
   commentId: M:wan24.DecimalEncoder.CreateRandomLong(System.Boolean)
-  fullName: wan24.DecimalEncoder.CreateRandomLong(System.Boolean)
-  nameWithType: DecimalEncoder.CreateRandomLong(Boolean)
+  name.vb: CreateRandomLong(Boolean)
+  fullName: wan24.DecimalEncoder.CreateRandomLong(bool)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomLong(Boolean)
+  nameWithType: DecimalEncoder.CreateRandomLong(bool)
+  nameWithType.vb: DecimalEncoder.CreateRandomLong(Boolean)
 - uid: wan24.DecimalEncoder.CreateRandomLong(System.String)
-  name: CreateRandomLong(String)
+  name: CreateRandomLong(string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomLong_System_String_
   commentId: M:wan24.DecimalEncoder.CreateRandomLong(System.String)
-  fullName: wan24.DecimalEncoder.CreateRandomLong(System.String)
-  nameWithType: DecimalEncoder.CreateRandomLong(String)
+  name.vb: CreateRandomLong(String)
+  fullName: wan24.DecimalEncoder.CreateRandomLong(string)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomLong(String)
+  nameWithType: DecimalEncoder.CreateRandomLong(string)
+  nameWithType.vb: DecimalEncoder.CreateRandomLong(String)
 - uid: wan24.DecimalEncoder.CreateRandomLong(wan24.DecimalEncodingMap)
   name: CreateRandomLong(DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomLong_wan24_DecimalEncodingMap_
@@ -120,17 +147,23 @@ references:
   fullName: wan24.DecimalEncoder.CreateRandomLong
   nameWithType: DecimalEncoder.CreateRandomLong
 - uid: wan24.DecimalEncoder.CreateRandomUInteger(System.Boolean)
-  name: CreateRandomUInteger(Boolean)
+  name: CreateRandomUInteger(bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomUInteger_System_Boolean_
   commentId: M:wan24.DecimalEncoder.CreateRandomUInteger(System.Boolean)
-  fullName: wan24.DecimalEncoder.CreateRandomUInteger(System.Boolean)
-  nameWithType: DecimalEncoder.CreateRandomUInteger(Boolean)
+  name.vb: CreateRandomUInteger(Boolean)
+  fullName: wan24.DecimalEncoder.CreateRandomUInteger(bool)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomUInteger(Boolean)
+  nameWithType: DecimalEncoder.CreateRandomUInteger(bool)
+  nameWithType.vb: DecimalEncoder.CreateRandomUInteger(Boolean)
 - uid: wan24.DecimalEncoder.CreateRandomUInteger(System.String)
-  name: CreateRandomUInteger(String)
+  name: CreateRandomUInteger(string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomUInteger_System_String_
   commentId: M:wan24.DecimalEncoder.CreateRandomUInteger(System.String)
-  fullName: wan24.DecimalEncoder.CreateRandomUInteger(System.String)
-  nameWithType: DecimalEncoder.CreateRandomUInteger(String)
+  name.vb: CreateRandomUInteger(String)
+  fullName: wan24.DecimalEncoder.CreateRandomUInteger(string)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomUInteger(String)
+  nameWithType: DecimalEncoder.CreateRandomUInteger(string)
+  nameWithType.vb: DecimalEncoder.CreateRandomUInteger(String)
 - uid: wan24.DecimalEncoder.CreateRandomUInteger(wan24.DecimalEncodingMap)
   name: CreateRandomUInteger(DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomUInteger_wan24_DecimalEncodingMap_
@@ -145,17 +178,23 @@ references:
   fullName: wan24.DecimalEncoder.CreateRandomUInteger
   nameWithType: DecimalEncoder.CreateRandomUInteger
 - uid: wan24.DecimalEncoder.CreateRandomULong(System.Boolean)
-  name: CreateRandomULong(Boolean)
+  name: CreateRandomULong(bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomULong_System_Boolean_
   commentId: M:wan24.DecimalEncoder.CreateRandomULong(System.Boolean)
-  fullName: wan24.DecimalEncoder.CreateRandomULong(System.Boolean)
-  nameWithType: DecimalEncoder.CreateRandomULong(Boolean)
+  name.vb: CreateRandomULong(Boolean)
+  fullName: wan24.DecimalEncoder.CreateRandomULong(bool)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomULong(Boolean)
+  nameWithType: DecimalEncoder.CreateRandomULong(bool)
+  nameWithType.vb: DecimalEncoder.CreateRandomULong(Boolean)
 - uid: wan24.DecimalEncoder.CreateRandomULong(System.String)
-  name: CreateRandomULong(String)
+  name: CreateRandomULong(string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomULong_System_String_
   commentId: M:wan24.DecimalEncoder.CreateRandomULong(System.String)
-  fullName: wan24.DecimalEncoder.CreateRandomULong(System.String)
-  nameWithType: DecimalEncoder.CreateRandomULong(String)
+  name.vb: CreateRandomULong(String)
+  fullName: wan24.DecimalEncoder.CreateRandomULong(string)
+  fullName.vb: wan24.DecimalEncoder.CreateRandomULong(String)
+  nameWithType: DecimalEncoder.CreateRandomULong(string)
+  nameWithType.vb: DecimalEncoder.CreateRandomULong(String)
 - uid: wan24.DecimalEncoder.CreateRandomULong(wan24.DecimalEncodingMap)
   name: CreateRandomULong(DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_CreateRandomULong_wan24_DecimalEncodingMap_
@@ -169,18 +208,30 @@ references:
   isSpec: "True"
   fullName: wan24.DecimalEncoder.CreateRandomULong
   nameWithType: DecimalEncoder.CreateRandomULong
+- uid: wan24.DecimalEncoder.EXTENDED_MAP
+  name: EXTENDED_MAP
+  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EXTENDED_MAP
+  commentId: F:wan24.DecimalEncoder.EXTENDED_MAP
+  fullName: wan24.DecimalEncoder.EXTENDED_MAP
+  nameWithType: DecimalEncoder.EXTENDED_MAP
 - uid: wan24.DecimalEncoder.Encode(System.Numerics.BigInteger,System.Boolean)
-  name: Encode(BigInteger, Boolean)
+  name: Encode(BigInteger, bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Numerics_BigInteger_System_Boolean_
   commentId: M:wan24.DecimalEncoder.Encode(System.Numerics.BigInteger,System.Boolean)
-  fullName: wan24.DecimalEncoder.Encode(System.Numerics.BigInteger, System.Boolean)
-  nameWithType: DecimalEncoder.Encode(BigInteger, Boolean)
+  name.vb: Encode(BigInteger, Boolean)
+  fullName: wan24.DecimalEncoder.Encode(System.Numerics.BigInteger, bool)
+  fullName.vb: wan24.DecimalEncoder.Encode(System.Numerics.BigInteger, Boolean)
+  nameWithType: DecimalEncoder.Encode(BigInteger, bool)
+  nameWithType.vb: DecimalEncoder.Encode(BigInteger, Boolean)
 - uid: wan24.DecimalEncoder.Encode(System.Numerics.BigInteger,System.String)
-  name: Encode(BigInteger, String)
+  name: Encode(BigInteger, string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Numerics_BigInteger_System_String_
   commentId: M:wan24.DecimalEncoder.Encode(System.Numerics.BigInteger,System.String)
-  fullName: wan24.DecimalEncoder.Encode(System.Numerics.BigInteger, System.String)
-  nameWithType: DecimalEncoder.Encode(BigInteger, String)
+  name.vb: Encode(BigInteger, String)
+  fullName: wan24.DecimalEncoder.Encode(System.Numerics.BigInteger, string)
+  fullName.vb: wan24.DecimalEncoder.Encode(System.Numerics.BigInteger, String)
+  nameWithType: DecimalEncoder.Encode(BigInteger, string)
+  nameWithType.vb: DecimalEncoder.Encode(BigInteger, String)
 - uid: wan24.DecimalEncoder.Encode(System.Numerics.BigInteger,wan24.DecimalEncodingMap)
   name: Encode(BigInteger, DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_Encode_System_Numerics_BigInteger_wan24_DecimalEncodingMap_
@@ -195,95 +246,140 @@ references:
   fullName: wan24.DecimalEncoder.Encode
   nameWithType: DecimalEncoder.Encode
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.Decimal,System.Boolean)
-  name: EncodeDecimal(Decimal, Boolean)
+  name: EncodeDecimal(decimal, bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Decimal_System_Boolean_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Decimal,System.Boolean)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Decimal, System.Boolean)
-  nameWithType: DecimalEncoder.EncodeDecimal(Decimal, Boolean)
+  name.vb: EncodeDecimal(Decimal, Boolean)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(decimal, bool)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(Decimal, Boolean)
+  nameWithType: DecimalEncoder.EncodeDecimal(decimal, bool)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(Decimal, Boolean)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.Decimal,System.String)
-  name: EncodeDecimal(Decimal, String)
+  name: EncodeDecimal(decimal, string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Decimal_System_String_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Decimal,System.String)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Decimal, System.String)
-  nameWithType: DecimalEncoder.EncodeDecimal(Decimal, String)
+  name.vb: EncodeDecimal(Decimal, String)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(decimal, string)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(Decimal, String)
+  nameWithType: DecimalEncoder.EncodeDecimal(decimal, string)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(Decimal, String)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.Decimal,wan24.DecimalEncodingMap)
-  name: EncodeDecimal(Decimal, DecimalEncodingMap)
+  name: EncodeDecimal(decimal, DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Decimal_wan24_DecimalEncodingMap_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Decimal,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Decimal, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.EncodeDecimal(Decimal, DecimalEncodingMap)
+  name.vb: EncodeDecimal(Decimal, DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(decimal, wan24.DecimalEncodingMap)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(Decimal, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.EncodeDecimal(decimal, DecimalEncodingMap)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(Decimal, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.Int32,System.Boolean)
-  name: EncodeDecimal(Int32, Boolean)
+  name: EncodeDecimal(int, bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Int32_System_Boolean_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Int32,System.Boolean)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Int32, System.Boolean)
-  nameWithType: DecimalEncoder.EncodeDecimal(Int32, Boolean)
+  name.vb: EncodeDecimal(Integer, Boolean)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(int, bool)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(Integer, Boolean)
+  nameWithType: DecimalEncoder.EncodeDecimal(int, bool)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(Integer, Boolean)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.Int32,System.String)
-  name: EncodeDecimal(Int32, String)
+  name: EncodeDecimal(int, string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Int32_System_String_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Int32,System.String)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Int32, System.String)
-  nameWithType: DecimalEncoder.EncodeDecimal(Int32, String)
+  name.vb: EncodeDecimal(Integer, String)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(int, string)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(Integer, String)
+  nameWithType: DecimalEncoder.EncodeDecimal(int, string)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(Integer, String)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.Int32,wan24.DecimalEncodingMap)
-  name: EncodeDecimal(Int32, DecimalEncodingMap)
+  name: EncodeDecimal(int, DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Int32_wan24_DecimalEncodingMap_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Int32,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Int32, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.EncodeDecimal(Int32, DecimalEncodingMap)
+  name.vb: EncodeDecimal(Integer, DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(int, wan24.DecimalEncodingMap)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(Integer, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.EncodeDecimal(int, DecimalEncodingMap)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(Integer, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.Int64,System.Boolean)
-  name: EncodeDecimal(Int64, Boolean)
+  name: EncodeDecimal(long, bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Int64_System_Boolean_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Int64,System.Boolean)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Int64, System.Boolean)
-  nameWithType: DecimalEncoder.EncodeDecimal(Int64, Boolean)
+  name.vb: EncodeDecimal(Long, Boolean)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(long, bool)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(Long, Boolean)
+  nameWithType: DecimalEncoder.EncodeDecimal(long, bool)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(Long, Boolean)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.Int64,System.String)
-  name: EncodeDecimal(Int64, String)
+  name: EncodeDecimal(long, string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Int64_System_String_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Int64,System.String)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Int64, System.String)
-  nameWithType: DecimalEncoder.EncodeDecimal(Int64, String)
+  name.vb: EncodeDecimal(Long, String)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(long, string)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(Long, String)
+  nameWithType: DecimalEncoder.EncodeDecimal(long, string)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(Long, String)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.Int64,wan24.DecimalEncodingMap)
-  name: EncodeDecimal(Int64, DecimalEncodingMap)
+  name: EncodeDecimal(long, DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_Int64_wan24_DecimalEncodingMap_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.Int64,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.Int64, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.EncodeDecimal(Int64, DecimalEncodingMap)
+  name.vb: EncodeDecimal(Long, DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(long, wan24.DecimalEncodingMap)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(Long, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.EncodeDecimal(long, DecimalEncodingMap)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(Long, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.UInt32,System.Boolean)
-  name: EncodeDecimal(UInt32, Boolean)
+  name: EncodeDecimal(uint, bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_UInt32_System_Boolean_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.UInt32,System.Boolean)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.UInt32, System.Boolean)
-  nameWithType: DecimalEncoder.EncodeDecimal(UInt32, Boolean)
+  name.vb: EncodeDecimal(UInteger, Boolean)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(uint, bool)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(UInteger, Boolean)
+  nameWithType: DecimalEncoder.EncodeDecimal(uint, bool)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(UInteger, Boolean)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.UInt32,System.String)
-  name: EncodeDecimal(UInt32, String)
+  name: EncodeDecimal(uint, string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_UInt32_System_String_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.UInt32,System.String)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.UInt32, System.String)
-  nameWithType: DecimalEncoder.EncodeDecimal(UInt32, String)
+  name.vb: EncodeDecimal(UInteger, String)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(uint, string)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(UInteger, String)
+  nameWithType: DecimalEncoder.EncodeDecimal(uint, string)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(UInteger, String)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.UInt32,wan24.DecimalEncodingMap)
-  name: EncodeDecimal(UInt32, DecimalEncodingMap)
+  name: EncodeDecimal(uint, DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_UInt32_wan24_DecimalEncodingMap_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.UInt32,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.UInt32, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.EncodeDecimal(UInt32, DecimalEncodingMap)
+  name.vb: EncodeDecimal(UInteger, DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(uint, wan24.DecimalEncodingMap)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(UInteger, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.EncodeDecimal(uint, DecimalEncodingMap)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(UInteger, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.UInt64,System.Boolean)
-  name: EncodeDecimal(UInt64, Boolean)
+  name: EncodeDecimal(ulong, bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_UInt64_System_Boolean_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.UInt64,System.Boolean)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.UInt64, System.Boolean)
-  nameWithType: DecimalEncoder.EncodeDecimal(UInt64, Boolean)
+  name.vb: EncodeDecimal(ULong, Boolean)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(ulong, bool)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(ULong, Boolean)
+  nameWithType: DecimalEncoder.EncodeDecimal(ulong, bool)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(ULong, Boolean)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.UInt64,System.String)
-  name: EncodeDecimal(UInt64, String)
+  name: EncodeDecimal(ulong, string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_UInt64_System_String_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.UInt64,System.String)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.UInt64, System.String)
-  nameWithType: DecimalEncoder.EncodeDecimal(UInt64, String)
+  name.vb: EncodeDecimal(ULong, String)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(ulong, string)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(ULong, String)
+  nameWithType: DecimalEncoder.EncodeDecimal(ulong, string)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(ULong, String)
 - uid: wan24.DecimalEncoder.EncodeDecimal(System.UInt64,wan24.DecimalEncodingMap)
-  name: EncodeDecimal(UInt64, DecimalEncodingMap)
+  name: EncodeDecimal(ulong, DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_System_UInt64_wan24_DecimalEncodingMap_
   commentId: M:wan24.DecimalEncoder.EncodeDecimal(System.UInt64,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.EncodeDecimal(System.UInt64, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.EncodeDecimal(UInt64, DecimalEncodingMap)
+  name.vb: EncodeDecimal(ULong, DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.EncodeDecimal(ulong, wan24.DecimalEncodingMap)
+  fullName.vb: wan24.DecimalEncoder.EncodeDecimal(ULong, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.EncodeDecimal(ulong, DecimalEncodingMap)
+  nameWithType.vb: DecimalEncoder.EncodeDecimal(ULong, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.EncodeDecimal*
   name: EncodeDecimal
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeDecimal_
@@ -292,31 +388,31 @@ references:
   fullName: wan24.DecimalEncoder.EncodeDecimal
   nameWithType: DecimalEncoder.EncodeDecimal
 - uid: wan24.DecimalEncoder.EncodeInteger(System.Byte[],System.Boolean)
-  name: EncodeInteger(Byte[], Boolean)
+  name: EncodeInteger(byte[], bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeInteger_System_Byte___System_Boolean_
   commentId: M:wan24.DecimalEncoder.EncodeInteger(System.Byte[],System.Boolean)
   name.vb: EncodeInteger(Byte(), Boolean)
-  fullName: wan24.DecimalEncoder.EncodeInteger(System.Byte[], System.Boolean)
-  fullName.vb: wan24.DecimalEncoder.EncodeInteger(System.Byte(), System.Boolean)
-  nameWithType: DecimalEncoder.EncodeInteger(Byte[], Boolean)
+  fullName: wan24.DecimalEncoder.EncodeInteger(byte[], bool)
+  fullName.vb: wan24.DecimalEncoder.EncodeInteger(Byte(), Boolean)
+  nameWithType: DecimalEncoder.EncodeInteger(byte[], bool)
   nameWithType.vb: DecimalEncoder.EncodeInteger(Byte(), Boolean)
 - uid: wan24.DecimalEncoder.EncodeInteger(System.Byte[],System.String)
-  name: EncodeInteger(Byte[], String)
+  name: EncodeInteger(byte[], string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeInteger_System_Byte___System_String_
   commentId: M:wan24.DecimalEncoder.EncodeInteger(System.Byte[],System.String)
   name.vb: EncodeInteger(Byte(), String)
-  fullName: wan24.DecimalEncoder.EncodeInteger(System.Byte[], System.String)
-  fullName.vb: wan24.DecimalEncoder.EncodeInteger(System.Byte(), System.String)
-  nameWithType: DecimalEncoder.EncodeInteger(Byte[], String)
+  fullName: wan24.DecimalEncoder.EncodeInteger(byte[], string)
+  fullName.vb: wan24.DecimalEncoder.EncodeInteger(Byte(), String)
+  nameWithType: DecimalEncoder.EncodeInteger(byte[], string)
   nameWithType.vb: DecimalEncoder.EncodeInteger(Byte(), String)
 - uid: wan24.DecimalEncoder.EncodeInteger(System.Byte[],wan24.DecimalEncodingMap)
-  name: EncodeInteger(Byte[], DecimalEncodingMap)
+  name: EncodeInteger(byte[], DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EncodeInteger_System_Byte___wan24_DecimalEncodingMap_
   commentId: M:wan24.DecimalEncoder.EncodeInteger(System.Byte[],wan24.DecimalEncodingMap)
   name.vb: EncodeInteger(Byte(), DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.EncodeInteger(System.Byte[], wan24.DecimalEncodingMap)
-  fullName.vb: wan24.DecimalEncoder.EncodeInteger(System.Byte(), wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.EncodeInteger(Byte[], DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.EncodeInteger(byte[], wan24.DecimalEncodingMap)
+  fullName.vb: wan24.DecimalEncoder.EncodeInteger(Byte(), wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.EncodeInteger(byte[], DecimalEncodingMap)
   nameWithType.vb: DecimalEncoder.EncodeInteger(Byte(), DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.EncodeInteger*
   name: EncodeInteger
@@ -325,12 +421,6 @@ references:
   isSpec: "True"
   fullName: wan24.DecimalEncoder.EncodeInteger
   nameWithType: DecimalEncoder.EncodeInteger
-- uid: wan24.DecimalEncoder.EXTENDED_MAP
-  name: EXTENDED_MAP
-  href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_EXTENDED_MAP
-  commentId: F:wan24.DecimalEncoder.EXTENDED_MAP
-  fullName: wan24.DecimalEncoder.EXTENDED_MAP
-  nameWithType: DecimalEncoder.EXTENDED_MAP
 - uid: wan24.DecimalEncoder.GetEncodingMap(wan24.DecimalEncodingMap)
   name: GetEncodingMap(DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_GetEncodingMap_wan24_DecimalEncodingMap_
@@ -369,23 +459,32 @@ references:
   fullName: wan24.DecimalEncoder.SIMPLE_MAP
   nameWithType: DecimalEncoder.SIMPLE_MAP
 - uid: wan24.DecimalEncoder.ToDecodedBigInteger(System.String,System.Boolean)
-  name: ToDecodedBigInteger(String, Boolean)
+  name: ToDecodedBigInteger(string, bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedBigInteger_System_String_System_Boolean_
   commentId: M:wan24.DecimalEncoder.ToDecodedBigInteger(System.String,System.Boolean)
-  fullName: wan24.DecimalEncoder.ToDecodedBigInteger(System.String, System.Boolean)
-  nameWithType: DecimalEncoder.ToDecodedBigInteger(String, Boolean)
+  name.vb: ToDecodedBigInteger(String, Boolean)
+  fullName: wan24.DecimalEncoder.ToDecodedBigInteger(string, bool)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedBigInteger(String, Boolean)
+  nameWithType: DecimalEncoder.ToDecodedBigInteger(string, bool)
+  nameWithType.vb: DecimalEncoder.ToDecodedBigInteger(String, Boolean)
 - uid: wan24.DecimalEncoder.ToDecodedBigInteger(System.String,System.String)
-  name: ToDecodedBigInteger(String, String)
+  name: ToDecodedBigInteger(string, string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedBigInteger_System_String_System_String_
   commentId: M:wan24.DecimalEncoder.ToDecodedBigInteger(System.String,System.String)
-  fullName: wan24.DecimalEncoder.ToDecodedBigInteger(System.String, System.String)
-  nameWithType: DecimalEncoder.ToDecodedBigInteger(String, String)
+  name.vb: ToDecodedBigInteger(String, String)
+  fullName: wan24.DecimalEncoder.ToDecodedBigInteger(string, string)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedBigInteger(String, String)
+  nameWithType: DecimalEncoder.ToDecodedBigInteger(string, string)
+  nameWithType.vb: DecimalEncoder.ToDecodedBigInteger(String, String)
 - uid: wan24.DecimalEncoder.ToDecodedBigInteger(System.String,wan24.DecimalEncodingMap)
-  name: ToDecodedBigInteger(String, DecimalEncodingMap)
+  name: ToDecodedBigInteger(string, DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedBigInteger_System_String_wan24_DecimalEncodingMap_
   commentId: M:wan24.DecimalEncoder.ToDecodedBigInteger(System.String,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.ToDecodedBigInteger(System.String, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.ToDecodedBigInteger(String, DecimalEncodingMap)
+  name.vb: ToDecodedBigInteger(String, DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.ToDecodedBigInteger(string, wan24.DecimalEncodingMap)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedBigInteger(String, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.ToDecodedBigInteger(string, DecimalEncodingMap)
+  nameWithType.vb: DecimalEncoder.ToDecodedBigInteger(String, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.ToDecodedBigInteger*
   name: ToDecodedBigInteger
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedBigInteger_
@@ -394,23 +493,32 @@ references:
   fullName: wan24.DecimalEncoder.ToDecodedBigInteger
   nameWithType: DecimalEncoder.ToDecodedBigInteger
 - uid: wan24.DecimalEncoder.ToDecodedDecimal(System.String,System.Boolean)
-  name: ToDecodedDecimal(String, Boolean)
+  name: ToDecodedDecimal(string, bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedDecimal_System_String_System_Boolean_
   commentId: M:wan24.DecimalEncoder.ToDecodedDecimal(System.String,System.Boolean)
-  fullName: wan24.DecimalEncoder.ToDecodedDecimal(System.String, System.Boolean)
-  nameWithType: DecimalEncoder.ToDecodedDecimal(String, Boolean)
+  name.vb: ToDecodedDecimal(String, Boolean)
+  fullName: wan24.DecimalEncoder.ToDecodedDecimal(string, bool)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedDecimal(String, Boolean)
+  nameWithType: DecimalEncoder.ToDecodedDecimal(string, bool)
+  nameWithType.vb: DecimalEncoder.ToDecodedDecimal(String, Boolean)
 - uid: wan24.DecimalEncoder.ToDecodedDecimal(System.String,System.String)
-  name: ToDecodedDecimal(String, String)
+  name: ToDecodedDecimal(string, string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedDecimal_System_String_System_String_
   commentId: M:wan24.DecimalEncoder.ToDecodedDecimal(System.String,System.String)
-  fullName: wan24.DecimalEncoder.ToDecodedDecimal(System.String, System.String)
-  nameWithType: DecimalEncoder.ToDecodedDecimal(String, String)
+  name.vb: ToDecodedDecimal(String, String)
+  fullName: wan24.DecimalEncoder.ToDecodedDecimal(string, string)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedDecimal(String, String)
+  nameWithType: DecimalEncoder.ToDecodedDecimal(string, string)
+  nameWithType.vb: DecimalEncoder.ToDecodedDecimal(String, String)
 - uid: wan24.DecimalEncoder.ToDecodedDecimal(System.String,wan24.DecimalEncodingMap)
-  name: ToDecodedDecimal(String, DecimalEncodingMap)
+  name: ToDecodedDecimal(string, DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedDecimal_System_String_wan24_DecimalEncodingMap_
   commentId: M:wan24.DecimalEncoder.ToDecodedDecimal(System.String,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.ToDecodedDecimal(System.String, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.ToDecodedDecimal(String, DecimalEncodingMap)
+  name.vb: ToDecodedDecimal(String, DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.ToDecodedDecimal(string, wan24.DecimalEncodingMap)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedDecimal(String, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.ToDecodedDecimal(string, DecimalEncodingMap)
+  nameWithType.vb: DecimalEncoder.ToDecodedDecimal(String, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.ToDecodedDecimal*
   name: ToDecodedDecimal
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedDecimal_
@@ -419,23 +527,32 @@ references:
   fullName: wan24.DecimalEncoder.ToDecodedDecimal
   nameWithType: DecimalEncoder.ToDecodedDecimal
 - uid: wan24.DecimalEncoder.ToDecodedInteger(System.String,System.Boolean)
-  name: ToDecodedInteger(String, Boolean)
+  name: ToDecodedInteger(string, bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedInteger_System_String_System_Boolean_
   commentId: M:wan24.DecimalEncoder.ToDecodedInteger(System.String,System.Boolean)
-  fullName: wan24.DecimalEncoder.ToDecodedInteger(System.String, System.Boolean)
-  nameWithType: DecimalEncoder.ToDecodedInteger(String, Boolean)
+  name.vb: ToDecodedInteger(String, Boolean)
+  fullName: wan24.DecimalEncoder.ToDecodedInteger(string, bool)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedInteger(String, Boolean)
+  nameWithType: DecimalEncoder.ToDecodedInteger(string, bool)
+  nameWithType.vb: DecimalEncoder.ToDecodedInteger(String, Boolean)
 - uid: wan24.DecimalEncoder.ToDecodedInteger(System.String,System.String)
-  name: ToDecodedInteger(String, String)
+  name: ToDecodedInteger(string, string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedInteger_System_String_System_String_
   commentId: M:wan24.DecimalEncoder.ToDecodedInteger(System.String,System.String)
-  fullName: wan24.DecimalEncoder.ToDecodedInteger(System.String, System.String)
-  nameWithType: DecimalEncoder.ToDecodedInteger(String, String)
+  name.vb: ToDecodedInteger(String, String)
+  fullName: wan24.DecimalEncoder.ToDecodedInteger(string, string)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedInteger(String, String)
+  nameWithType: DecimalEncoder.ToDecodedInteger(string, string)
+  nameWithType.vb: DecimalEncoder.ToDecodedInteger(String, String)
 - uid: wan24.DecimalEncoder.ToDecodedInteger(System.String,wan24.DecimalEncodingMap)
-  name: ToDecodedInteger(String, DecimalEncodingMap)
+  name: ToDecodedInteger(string, DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedInteger_System_String_wan24_DecimalEncodingMap_
   commentId: M:wan24.DecimalEncoder.ToDecodedInteger(System.String,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.ToDecodedInteger(System.String, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.ToDecodedInteger(String, DecimalEncodingMap)
+  name.vb: ToDecodedInteger(String, DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.ToDecodedInteger(string, wan24.DecimalEncodingMap)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedInteger(String, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.ToDecodedInteger(string, DecimalEncodingMap)
+  nameWithType.vb: DecimalEncoder.ToDecodedInteger(String, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.ToDecodedInteger*
   name: ToDecodedInteger
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedInteger_
@@ -444,23 +561,32 @@ references:
   fullName: wan24.DecimalEncoder.ToDecodedInteger
   nameWithType: DecimalEncoder.ToDecodedInteger
 - uid: wan24.DecimalEncoder.ToDecodedLong(System.String,System.Boolean)
-  name: ToDecodedLong(String, Boolean)
+  name: ToDecodedLong(string, bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedLong_System_String_System_Boolean_
   commentId: M:wan24.DecimalEncoder.ToDecodedLong(System.String,System.Boolean)
-  fullName: wan24.DecimalEncoder.ToDecodedLong(System.String, System.Boolean)
-  nameWithType: DecimalEncoder.ToDecodedLong(String, Boolean)
+  name.vb: ToDecodedLong(String, Boolean)
+  fullName: wan24.DecimalEncoder.ToDecodedLong(string, bool)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedLong(String, Boolean)
+  nameWithType: DecimalEncoder.ToDecodedLong(string, bool)
+  nameWithType.vb: DecimalEncoder.ToDecodedLong(String, Boolean)
 - uid: wan24.DecimalEncoder.ToDecodedLong(System.String,System.String)
-  name: ToDecodedLong(String, String)
+  name: ToDecodedLong(string, string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedLong_System_String_System_String_
   commentId: M:wan24.DecimalEncoder.ToDecodedLong(System.String,System.String)
-  fullName: wan24.DecimalEncoder.ToDecodedLong(System.String, System.String)
-  nameWithType: DecimalEncoder.ToDecodedLong(String, String)
+  name.vb: ToDecodedLong(String, String)
+  fullName: wan24.DecimalEncoder.ToDecodedLong(string, string)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedLong(String, String)
+  nameWithType: DecimalEncoder.ToDecodedLong(string, string)
+  nameWithType.vb: DecimalEncoder.ToDecodedLong(String, String)
 - uid: wan24.DecimalEncoder.ToDecodedLong(System.String,wan24.DecimalEncodingMap)
-  name: ToDecodedLong(String, DecimalEncodingMap)
+  name: ToDecodedLong(string, DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedLong_System_String_wan24_DecimalEncodingMap_
   commentId: M:wan24.DecimalEncoder.ToDecodedLong(System.String,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.ToDecodedLong(System.String, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.ToDecodedLong(String, DecimalEncodingMap)
+  name.vb: ToDecodedLong(String, DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.ToDecodedLong(string, wan24.DecimalEncodingMap)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedLong(String, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.ToDecodedLong(string, DecimalEncodingMap)
+  nameWithType.vb: DecimalEncoder.ToDecodedLong(String, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.ToDecodedLong*
   name: ToDecodedLong
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedLong_
@@ -469,23 +595,32 @@ references:
   fullName: wan24.DecimalEncoder.ToDecodedLong
   nameWithType: DecimalEncoder.ToDecodedLong
 - uid: wan24.DecimalEncoder.ToDecodedUInteger(System.String,System.Boolean)
-  name: ToDecodedUInteger(String, Boolean)
+  name: ToDecodedUInteger(string, bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedUInteger_System_String_System_Boolean_
   commentId: M:wan24.DecimalEncoder.ToDecodedUInteger(System.String,System.Boolean)
-  fullName: wan24.DecimalEncoder.ToDecodedUInteger(System.String, System.Boolean)
-  nameWithType: DecimalEncoder.ToDecodedUInteger(String, Boolean)
+  name.vb: ToDecodedUInteger(String, Boolean)
+  fullName: wan24.DecimalEncoder.ToDecodedUInteger(string, bool)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedUInteger(String, Boolean)
+  nameWithType: DecimalEncoder.ToDecodedUInteger(string, bool)
+  nameWithType.vb: DecimalEncoder.ToDecodedUInteger(String, Boolean)
 - uid: wan24.DecimalEncoder.ToDecodedUInteger(System.String,System.String)
-  name: ToDecodedUInteger(String, String)
+  name: ToDecodedUInteger(string, string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedUInteger_System_String_System_String_
   commentId: M:wan24.DecimalEncoder.ToDecodedUInteger(System.String,System.String)
-  fullName: wan24.DecimalEncoder.ToDecodedUInteger(System.String, System.String)
-  nameWithType: DecimalEncoder.ToDecodedUInteger(String, String)
+  name.vb: ToDecodedUInteger(String, String)
+  fullName: wan24.DecimalEncoder.ToDecodedUInteger(string, string)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedUInteger(String, String)
+  nameWithType: DecimalEncoder.ToDecodedUInteger(string, string)
+  nameWithType.vb: DecimalEncoder.ToDecodedUInteger(String, String)
 - uid: wan24.DecimalEncoder.ToDecodedUInteger(System.String,wan24.DecimalEncodingMap)
-  name: ToDecodedUInteger(String, DecimalEncodingMap)
+  name: ToDecodedUInteger(string, DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedUInteger_System_String_wan24_DecimalEncodingMap_
   commentId: M:wan24.DecimalEncoder.ToDecodedUInteger(System.String,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.ToDecodedUInteger(System.String, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.ToDecodedUInteger(String, DecimalEncodingMap)
+  name.vb: ToDecodedUInteger(String, DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.ToDecodedUInteger(string, wan24.DecimalEncodingMap)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedUInteger(String, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.ToDecodedUInteger(string, DecimalEncodingMap)
+  nameWithType.vb: DecimalEncoder.ToDecodedUInteger(String, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.ToDecodedUInteger*
   name: ToDecodedUInteger
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedUInteger_
@@ -494,23 +629,32 @@ references:
   fullName: wan24.DecimalEncoder.ToDecodedUInteger
   nameWithType: DecimalEncoder.ToDecodedUInteger
 - uid: wan24.DecimalEncoder.ToDecodedULong(System.String,System.Boolean)
-  name: ToDecodedULong(String, Boolean)
+  name: ToDecodedULong(string, bool)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedULong_System_String_System_Boolean_
   commentId: M:wan24.DecimalEncoder.ToDecodedULong(System.String,System.Boolean)
-  fullName: wan24.DecimalEncoder.ToDecodedULong(System.String, System.Boolean)
-  nameWithType: DecimalEncoder.ToDecodedULong(String, Boolean)
+  name.vb: ToDecodedULong(String, Boolean)
+  fullName: wan24.DecimalEncoder.ToDecodedULong(string, bool)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedULong(String, Boolean)
+  nameWithType: DecimalEncoder.ToDecodedULong(string, bool)
+  nameWithType.vb: DecimalEncoder.ToDecodedULong(String, Boolean)
 - uid: wan24.DecimalEncoder.ToDecodedULong(System.String,System.String)
-  name: ToDecodedULong(String, String)
+  name: ToDecodedULong(string, string)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedULong_System_String_System_String_
   commentId: M:wan24.DecimalEncoder.ToDecodedULong(System.String,System.String)
-  fullName: wan24.DecimalEncoder.ToDecodedULong(System.String, System.String)
-  nameWithType: DecimalEncoder.ToDecodedULong(String, String)
+  name.vb: ToDecodedULong(String, String)
+  fullName: wan24.DecimalEncoder.ToDecodedULong(string, string)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedULong(String, String)
+  nameWithType: DecimalEncoder.ToDecodedULong(string, string)
+  nameWithType.vb: DecimalEncoder.ToDecodedULong(String, String)
 - uid: wan24.DecimalEncoder.ToDecodedULong(System.String,wan24.DecimalEncodingMap)
-  name: ToDecodedULong(String, DecimalEncodingMap)
+  name: ToDecodedULong(string, DecimalEncodingMap)
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedULong_System_String_wan24_DecimalEncodingMap_
   commentId: M:wan24.DecimalEncoder.ToDecodedULong(System.String,wan24.DecimalEncodingMap)
-  fullName: wan24.DecimalEncoder.ToDecodedULong(System.String, wan24.DecimalEncodingMap)
-  nameWithType: DecimalEncoder.ToDecodedULong(String, DecimalEncodingMap)
+  name.vb: ToDecodedULong(String, DecimalEncodingMap)
+  fullName: wan24.DecimalEncoder.ToDecodedULong(string, wan24.DecimalEncodingMap)
+  fullName.vb: wan24.DecimalEncoder.ToDecodedULong(String, wan24.DecimalEncodingMap)
+  nameWithType: DecimalEncoder.ToDecodedULong(string, DecimalEncodingMap)
+  nameWithType.vb: DecimalEncoder.ToDecodedULong(String, DecimalEncodingMap)
 - uid: wan24.DecimalEncoder.ToDecodedULong*
   name: ToDecodedULong
   href: api/wan24.DecimalEncoder.html#wan24_DecimalEncoder_ToDecodedULong_
