@@ -19,6 +19,6 @@ jobs:
     - name: Setup docfx
       run: dotnet tool update -g docfx
     - name: Build docs
-      run: docfx "./src/DecimalEncoder/docfx.json"
+      run: docfx "./src/DecimalEncoder DocFx/docfx.json"
     - name: Commit
       uses: stefanzweifel/git-auto-commit-action@v5
